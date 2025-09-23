@@ -3,7 +3,7 @@
 The source code and data associated with the WSDM 2026 submission titled "From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text". This repo is for review purposes, the benchmark framework and baseline code will be available in GitHub and the benchmark data will be uploaded to HuggingFace for the community.
 
 ## Structure of the repo
-
+```
 benchmark_data/
 ├── ConvFinQA/
 │   ├── ConvFinQA_corpus.json        # text + table corpora
@@ -32,7 +32,7 @@ baselines/
 benchmark_framework/
 ├── scripts/  # scripts for benchmark creation
 └── src/      # code for benchmark creation
-
+```
 ## How to run the baselines 
 
 
