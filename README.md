@@ -70,9 +70,71 @@ The choice of which data will be used to produce results, as well as the choice 
 
 After running the baseline script, results will be output to files like `baselines/data/ConfFinQA/ConfFinQA_test_results_eval_granite.json`
 
-HybridQA is the largest of the datasets, and running this baseline may be slow (running locally with no GPU, producing the entire collection of text embeddings may take about an hour).
-Embedding speed will be much faster if you are running on a machine with GPU support.
-Producing baseline results for TATQA and ConfFinQA is expected to finish within a few minutes.
+> **Note:** HybridQA is the largest of the datasets, and running this baseline may be slow (running locally with no GPU, producing the entire collection of text embeddings may take about an hour). Embedding speed will be much faster if you are running on a machine with GPU support. Producing baseline results for TATQA and ConfFinQA is expected to finish within a few minutes.
+
 ## How to run the benchmark creation 
 
+> **Note:**  Systems that plan to use benchmark can use the benchmark directly from the data as shown in the running baseline section, and no need to re-run the benchmark creation process. Benchmark creation is documented here for reproducibility.
+
+#### Downloading the existing QA Benchmarks
+The benchmark uses data from the following existing repositories and you will need to download those repositories first. 
+- [WikiTables-WithLinks](https://github.com/wenhuchen/WikiTables-WithLinks.git)
+- [HybridQA](https://github.com/wenhuchen/HybridQA.git)
+- [TAT-QA](https://github.com/NExTplusplus/TAT-QA.git)
+- [ConvFinQA](https://github.com/czyssrs/ConvFinQA.git)
+
+To make the process easier, we have added them as git-submodules. Use the following command to clone all of them in a single command.
+
+```commandline
+git submodule update --init --recursive
+```
+
+The ConvFinQA dataset is in a compressed zip file. Unzip it using the following command. 
+```commandline
+unzip benchmark_framework/data/raw/ConvFinQA/data.zip -d benchmark_framework/data/raw/ConvFinQA
+```
+
+#### Corpus preparation
+
+The following command will run the corpus preparation for HybridQA, TATQA, and ConvFinQA datasets. It reads the raw data from the original Git repos files and create tables and text corpora in a common format that will be used by the next phases of the pipeline.
+
+```commandline
+sh benchmark_framework/scripts/0_prepare.sh
+```
+
+This step will create the following files.
+
+```
+benchmark_framework/data/output
+├── ConvFinQA
+│   ├── dev
+│   │   └── ConvFinQA_dev_corpus.json
+│   ├── test
+│   │   └── ConvFinQA_test_corpus.json
+│   └── train
+│       └── ConvFinQA_train_corpus.json
+├── HybridQA
+│   ├── dev
+│   │   └── HybridQA_dev_corpus.json
+│   ├── test
+│   │   └── HybridQA_test_corpus.json
+│   └── train
+│       └── HybridQA_train_corpus.json
+└── TATQA
+    ├── dev
+    │   └── TATQA_dev_corpus.json
+    ├── test
+    │   └── TATQA_test_corpus.json
+    └── train
+        └── TATQA_train_corpus.json
+```
+
+#### Topic clustering of questions (grouped by the tables)
+
+
+```commandline
+sh benchmark_framework/scripts/0_prepare.sh
+```
+
 ## Benchmark statistics 
+

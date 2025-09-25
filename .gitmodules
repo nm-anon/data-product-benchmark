@@ -1,0 +1,12 @@
+[submodule "benchmark_framework/data/raw/WikiTables-WithLinks"]
+	path = benchmark_framework/data/raw/WikiTables-WithLinks
+	url = https://github.com/wenhuchen/WikiTables-WithLinks.git
+[submodule "benchmark_framework/data/raw/HybridQA"]
+	path = benchmark_framework/data/raw/HybridQA
+	url = https://github.com/wenhuchen/HybridQA.git
+[submodule "benchmark_framework/data/raw/TAT-QA"]
+	path = benchmark_framework/data/raw/TAT-QA
+	url = https://github.com/NExTplusplus/TAT-QA.git
+[submodule "benchmark_framework/data/raw/ConvFinQA"]
+	path = benchmark_framework/data/raw/ConvFinQA
+	url = https://github.com/czyssrs/ConvFinQA.git
