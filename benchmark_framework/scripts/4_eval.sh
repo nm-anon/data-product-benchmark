@@ -13,13 +13,13 @@ for SPLIT in "${SPLITS[@]}"; do
   for DIMENSION in "${DIMENSIONS[@]}"; do
     for DPR_LLM in "${DPR_LLMS[@]}"; do
       for EVAL_LLM in "${EVAL_LLMS[@]}"; do
-        DPR_PATH="data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_dprs-${DPR_LLM}.jsonl"
-        CORPUS_PATH="data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_corpus.json"
-        OUTPUT_PATH="data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_dpr_eval_${DIMENSION}_g_${DPR_LLM}_e_${EVAL_LLM}.jsonl"
+        DPR_PATH="benchmark_framework/data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_dprs-${DPR_LLM}.jsonl"
+        CORPUS_PATH="benchmark_framework/data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_corpus.json"
+        OUTPUT_PATH="benchmark_framework/data/output/${DATA_NAME}/${SPLIT}/${DATA_NAME}_${SPLIT}_dpr_eval_${DIMENSION}_g_${DPR_LLM}_e_${EVAL_LLM}.jsonl"
 
         echo "Running evaluation with SPLIT=${SPLIT}, DIMENSION=${DIMENSION}, DPR_LLM=${DPR_LLM}, EVAL_LLM=${EVAL_LLM}"
 
-        python src/eval.py \
+        python benchmark_framework/src/eval.py \
             --dprs_path "$DPR_PATH" \
             --corpus_path "$CORPUS_PATH" \
             --output_path "$OUTPUT_PATH" \

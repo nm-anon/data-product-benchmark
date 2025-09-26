@@ -10,44 +10,9 @@ from pydantic import BaseModel, Field
 from concurrent.futures import ProcessPoolExecutor, as_completed, ThreadPoolExecutor
 import argparse
 import time
+from llm_provider import setup_llm_provider
 
 load_dotenv()
-
-def get_model_info(model_name):
-    if model_name == "llama-3-3-70b":
-        api_base = "https://inference-3scale-apicast-production.apps.rits.fmaas.res.ibm.com/llama-3-3-70b-instruct/v1"
-        model_id = "openai/meta-llama/llama-3-3-70b-instruct"
-    elif model_name == "gpt-oss-120b":
-        api_base = "https://inference-3scale-apicast-production.apps.rits.fmaas.res.ibm.com/gpt-oss-120b/v1"
-        model_id = "openai/openai/gpt-oss-120b"
-    elif model_name == "DeepSeek-V3":
-        api_base = "https://inference-3scale-apicast-production.apps.rits.fmaas.res.ibm.com/deepseek-v3-h200/v1"
-        model_id = "openai/deepseek-ai/DeepSeek-V3"
-    elif model_name == "qwen-2-5-72b":
-        api_base = "https://inference-3scale-apicast-production.apps.rits.fmaas.res.ibm.com/qwen2-5-72b-instruct/v1"
-        model_id = "openai/Qwen/Qwen2.5-72B-Instruct"    
-    elif model_name == "mixtral-8x22b":
-        api_base = "https://inference-3scale-apicast-production.apps.rits.fmaas.res.ibm.com/mixtral-8x22b-instruct-v01/v1"
-        model_id = "openai/mistralai/mixtral-8x22B-instruct-v0.1"
-    else:
-        raise Exception(f"Unknown LLM {model_name}")
-
-    return api_base, model_id
-
-def configure_dspy_model(model_name):
-    api_base, model_id = get_model_info(model_name)
-    RITS_API_KEY = os.environ['RITS_API_KEY']
-    llama3_70b_ins = dspy.LM(
-        model=model_id,
-        cache=True,
-        max_tokens=4000,
-        temperature=0,
-        api_base=api_base,
-        api_key=RITS_API_KEY,
-        extra_headers={'RITS_API_KEY': RITS_API_KEY}
-    )
-    dspy.configure(lm=llama3_70b_ins)
-    dspy.settings.configure(async_max_workers=100)
 
 class EvaluationMetrics(BaseModel):
     quality: float = Field(..., description="Quality score (1 to 5).")
@@ -189,7 +154,7 @@ def main(args):
     model_name = args.model_name
     eval_dimension = args.dimension
 
-    configure_dspy_model(model_name)
+    setup_llm_provider(model_name)
 
     results = []
     start_time = time.time()

@@ -5,7 +5,7 @@ DATA_NAME="TATQA"
 SPLITS=("train" "dev" "test")
 
 for SPLIT in "${SPLITS[@]}"; do
-    python src/refinement.py \
+    python benchmark_framework/src/refinement.py \
         --base_dir "data/output/${DATA_NAME}/${SPLIT}/" \
         --dataset "$DATA_NAME" \
         --split "$SPLIT" \
