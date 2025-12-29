@@ -50,9 +50,11 @@ def main(args):
         document_ids=doc_ids,
         index_name=args.index_name,
         max_document_length=256,
-        split_documents=False
+        split_documents=False,
+        # parameters to reduce memory pressure
+        bsize=32,          # Reduced batch size (default is often higher)
+        use_faiss=True     # Reverts to the more stable FAISS backend
     )
-
 
     with open(args.dpr, "r", encoding="utf-8") as f:
         queries = [json.loads(line) for line in f if line.strip()]
@@ -86,8 +88,8 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--corpus", type=str, default="data/TATQA_corpus.json")
-    p.add_argument("--dpr", type=str, default="data/TATQA_test.jsonl")
+    p.add_argument("--corpus", type=str, default="data/corpus.json")
+    p.add_argument("--dpr", type=str, default="data/test.jsonl")
     p.add_argument("--dataset", type=str, default="TATQA")
     p.add_argument("--model", type=str, default="colbert-ir/colbertv2.0")
     p.add_argument("--index_name", type=str, default="standalone_colbert_index")

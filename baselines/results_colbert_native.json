@@ -1,0 +1,138 @@
+{
+  "dataset": "TATQA",
+  "model": "colbert-ir/colbertv2.0",
+  "results": [
+    {
+      "dpr_id": "38--llama-3-3-70b",
+      "query": "Compile a dataset that will allow queries on provision for income taxes, including tax rates, benefits, and expenses, and analyze how factors such as permanent differences, state tax, foreign rate differential, and executive and stock compensation contribute to the overall tax provision, in order to understand the drivers of tax expenses and identify trends and patterns in tax rates and benefits across different jurisdictions and years.",
+      "results": {
+        "colbert_native": [
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_0-2",
+            "score": 40.71875
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_2-4",
+            "score": 37.96875
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_2-4",
+            "score": 33.59375
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3",
+            "score": 32.96875
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_0-2",
+            "score": 32.6875
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_2-4",
+            "score": 32.28125
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_0-2",
+            "score": 31.375
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99",
+            "score": 28.59375
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf",
+            "score": 25.6875
+          }
+        ]
+      }
+    },
+    {
+      "dpr_id": "35--llama-3-3-70b",
+      "query": "Compile a comprehensive dataset on the company's liquidity risk, including contractual obligations, debt structures, warranty reserves, and other relevant financial commitments. This dataset should enable analysis of trends in these financial elements over time, assessment of the company's ability to meet its short-term and long-term obligations, and evaluation of the factors that influence its liquidity position, such as changes in debt, warranty liabilities, and operating lease obligations.",
+      "results": {
+        "colbert_native": [
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_0-2",
+            "score": 46.28125
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_0-2",
+            "score": 43.4375
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_2-4",
+            "score": 42.125
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_2-4",
+            "score": 38.5625
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_2-4",
+            "score": 35.625
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_0-2",
+            "score": 32.40625
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99",
+            "score": 32.15625
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3",
+            "score": 25.484375
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf",
+            "score": 25.46875
+          }
+        ]
+      }
+    },
+    {
+      "dpr_id": "49--llama-3-3-70b",
+      "query": "Compile a dataset that will allow queries on earnings per share, including basic and diluted EPS, weighted average number of shares, and the effect of dilutive securities. The data should track changes in EPS over time, including year-over-year comparisons, and provide insights into the impact of dilutive securities on EPS calculations. This should enable analysis of trends in EPS, evaluation of the effect of dilutive securities, and comparison of EPS across different years.",
+      "results": {
+        "colbert_native": [
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_0-2",
+            "score": 47.96875
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_0-2",
+            "score": 47.28125
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3_2-4",
+            "score": 45.6875
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_2-4",
+            "score": 42.375
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99_2-4",
+            "score": 39.75
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf_0-2",
+            "score": 38.875
+          },
+          {
+            "uuid": "98c16699-d385-4631-91de-1bc3c87f9f99",
+            "score": 36.53125
+          },
+          {
+            "uuid": "e78f8b29-6085-43de-b32f-be1a68641be3",
+            "score": 33.0
+          },
+          {
+            "uuid": "991d23d7-f32d-4954-8e1d-87ad22470fcf",
+            "score": 29.078125
+          }
+        ]
+      }
+    }
+  ]
+}
