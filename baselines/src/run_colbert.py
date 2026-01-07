@@ -88,8 +88,8 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--corpus", type=str, default="data/corpus.json")
-    p.add_argument("--dpr", type=str, default="data/test.jsonl")
+    p.add_argument("--corpus", type=str, default="data/TATQA_corpus.json")
+    p.add_argument("--dpr", type=str, default="data/TATQA_test.jsonl")
     p.add_argument("--dataset", type=str, default="TATQA")
     p.add_argument("--model", type=str, default="colbert-ir/colbertv2.0")
     p.add_argument("--index_name", type=str, default="standalone_colbert_index")
