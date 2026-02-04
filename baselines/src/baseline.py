@@ -228,7 +228,7 @@ def prepare_data(corpus_path, embedding_model, device):
         print("Run parallel: False")
 
         print("Computing table embeddings...")
-        table_embeddings = embedding_model.encode([table_content[0]],
+        table_embeddings = embedding_model.encode(table_content,
                                                   batch_size=1, 
                                                   normalize_embeddings=True, 
                                                   show_progress_bar=True, 
