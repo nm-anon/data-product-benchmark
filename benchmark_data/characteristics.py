@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Compute dataset-level and corpus-level characteristics for the benchmark.
-Produces JSON and Markdown summaries, including a basic topic coverage view.
-"""
-
 import argparse
 import json
 import math
@@ -19,7 +13,8 @@ STOPWORDS = {
     "my","myself","no","nor","not","now","off","once","only","other","our","ours","ourselves","out","over","own","same","she","should","so","some","such","than",
     "their","theirs","them","themselves","then","there","these","they","this","those","through","too","under","until","up","very","we","what","when","where","which","who",
     "whom","why","you","your","yours","yourself","yourselves",
-    "million","billion","percent","per","year","years","quarter","quarters","fiscal","fy","q1","q2","q3","q4"
+    "million","billion","percent","per","year","years","quarter","quarters","fiscal","fy","q1","q2","q3","q4","including",
+    "data","dataset","compile","compile_dataset","analyze","analysis","summary","overview","information","highlights","key",
 }
 
 TOKEN_RE = re.compile(r"[a-zA-Z][a-zA-Z'\-]{2,}")
