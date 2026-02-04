@@ -5,10 +5,22 @@ from math import cos, pi, sin
 from pathlib import Path
 import matplotlib.pyplot as plt
 
+# COLORS = [
+#     "#4E79A7", "#F28E2B", "#E15759", "#76B7B2", "#59A14F",
+#     "#EDC948", "#B07AA1", "#FF9DA7", 
+#     "#8CD17D", "#D4A6C8", "#FABFD2",  "#D37295",
+    
+# ]
+
 COLORS = [
     "#4E79A7", "#F28E2B", "#E15759", "#76B7B2", "#59A14F",
-    "#EDC948", "#B07AA1", "#FF9DA7", 
-    "#8CD17D", "#D4A6C8", "#FABFD2",  "#D37295",
+    "#EDC948", "#B07AA1", "#FF9DA7",
+    "#8CD17D", "#D4A6C8", "#FABFD2", "#D37295",
+    "#86BCB6", "#F1CE63", "#E695A1", "#8DA0CB",
+    "#66C2A5", "#FC8D62", "#E78AC3", "#A6D854",
+    "#FFD92F", "#E5C494", "#B3B3B3", "#A1D99B",
+    "#9EDAE5", "#C7E9C0", "#FDD0A2", "#C6DBEF",
+    "#F2B6CF", "#BDBDBD",
 ]
 
 
