@@ -1,0 +1,1010 @@
+[
+  {
+    "dataset": "ConvFinQA",
+    "dataset_stats": {
+      "dataset": "ConvFinQA",
+      "splits": {
+        "train": 2113,
+        "dev": 373,
+        "test": 627
+      },
+      "total_examples": 3113,
+      "avg_dpr_length_words": 77.16,
+      "ground_truth_counts": {
+        "total_table_refs": 14787,
+        "total_text_refs": 424596,
+        "total_synth_text_refs": 26171,
+        "unique_table_ids": 4159,
+        "unique_text_ids": 33629,
+        "unique_synth_text_ids": 7309
+      },
+      "topic_coverage": [
+        {
+          "term": "financial",
+          "score": 5421.1403,
+          "doc_coverage": 0.6341,
+          "doc_count": 1974
+        },
+        {
+          "term": "dataset",
+          "score": 4275.6927,
+          "doc_coverage": 0.6907,
+          "doc_count": 2150
+        },
+        {
+          "term": "tax",
+          "score": 3772.5655,
+          "doc_coverage": 0.1574,
+          "doc_count": 490
+        },
+        {
+          "term": "data",
+          "score": 3644.371,
+          "doc_coverage": 0.6666,
+          "doc_count": 2075
+        },
+        {
+          "term": "company's",
+          "score": 3516.5806,
+          "doc_coverage": 0.2946,
+          "doc_count": 917
+        },
+        {
+          "term": "performance",
+          "score": 3435.405,
+          "doc_coverage": 0.4616,
+          "doc_count": 1437
+        },
+        {
+          "term": "including",
+          "score": 3172.1291,
+          "doc_coverage": 0.627,
+          "doc_count": 1952
+        },
+        {
+          "term": "net",
+          "score": 3164.451,
+          "doc_coverage": 0.2865,
+          "doc_count": 892
+        },
+        {
+          "term": "stock",
+          "score": 3071.9265,
+          "doc_coverage": 0.2014,
+          "doc_count": 627
+        },
+        {
+          "term": "impact",
+          "score": 2962.5802,
+          "doc_coverage": 0.5503,
+          "doc_count": 1713
+        },
+        {
+          "term": "cash",
+          "score": 2951.2546,
+          "doc_coverage": 0.177,
+          "doc_count": 551
+        },
+        {
+          "term": "compile",
+          "score": 2902.68,
+          "doc_coverage": 0.656,
+          "doc_count": 2042
+        },
+        {
+          "term": "analysis",
+          "score": 2775.5288,
+          "doc_coverage": 0.5458,
+          "doc_count": 1699
+        },
+        {
+          "term": "trends",
+          "score": 2614.0279,
+          "doc_coverage": 0.4507,
+          "doc_count": 1403
+        },
+        {
+          "term": "debt",
+          "score": 2531.428,
+          "doc_coverage": 0.1503,
+          "doc_count": 468
+        },
+        {
+          "term": "support",
+          "score": 2486.8521,
+          "doc_coverage": 0.4324,
+          "doc_count": 1346
+        },
+        {
+          "term": "changes",
+          "score": 2486.13,
+          "doc_coverage": 0.2904,
+          "doc_count": 904
+        },
+        {
+          "term": "income",
+          "score": 2457.3487,
+          "doc_coverage": 0.1889,
+          "doc_count": 588
+        },
+        {
+          "term": "revenue",
+          "score": 2445.4159,
+          "doc_coverage": 0.1523,
+          "doc_count": 474
+        },
+        {
+          "term": "compile_dataset",
+          "score": 2430.23,
+          "doc_coverage": 0.416,
+          "doc_count": 1295
+        },
+        {
+          "term": "total",
+          "score": 2398.8715,
+          "doc_coverage": 0.2496,
+          "doc_count": 777
+        },
+        {
+          "term": "analyze",
+          "score": 2380.5611,
+          "doc_coverage": 0.3842,
+          "doc_count": 1196
+        },
+        {
+          "term": "obligations",
+          "score": 2313.7268,
+          "doc_coverage": 0.1609,
+          "doc_count": 501
+        },
+        {
+          "term": "operating",
+          "score": 2297.8254,
+          "doc_coverage": 0.2107,
+          "doc_count": 656
+        },
+        {
+          "term": "capital",
+          "score": 2202.9379,
+          "doc_coverage": 0.1388,
+          "doc_count": 432
+        }
+      ]
+    },
+    "corpus_stats": {
+      "dataset": "ConvFinQA",
+      "corpus": {
+        "entries": 4976,
+        "unique_table_ids": 4976,
+        "total_text_snippets": 114272,
+        "total_synth_text": 8721,
+        "avg_table_rows": 2.88,
+        "avg_table_cols": 6.4
+      },
+      "topic_coverage": [
+        {
+          "term": "summary",
+          "score": 7161.3227,
+          "doc_coverage": 0.2006,
+          "doc_count": 2748
+        },
+        {
+          "term": "financial",
+          "score": 6524.8845,
+          "doc_coverage": 0.162,
+          "doc_count": 2219
+        },
+        {
+          "term": "stock",
+          "score": 6227.5248,
+          "doc_coverage": 0.1159,
+          "doc_count": 1587
+        },
+        {
+          "term": "overview",
+          "score": 5179.182,
+          "doc_coverage": 0.1218,
+          "doc_count": 1668
+        },
+        {
+          "term": "performance",
+          "score": 5072.9804,
+          "doc_coverage": 0.1047,
+          "doc_count": 1434
+        },
+        {
+          "term": "return",
+          "score": 4723.7527,
+          "doc_coverage": 0.0834,
+          "doc_count": 1142
+        },
+        {
+          "term": "december",
+          "score": 4578.5612,
+          "doc_coverage": 0.0831,
+          "doc_count": 1138
+        },
+        {
+          "term": "inc",
+          "score": 4198.1242,
+          "doc_coverage": 0.0872,
+          "doc_count": 1195
+        },
+        {
+          "term": "corporation",
+          "score": 4024.3238,
+          "doc_coverage": 0.0808,
+          "doc_count": 1107
+        },
+        {
+          "term": "total",
+          "score": 3996.6105,
+          "doc_coverage": 0.0653,
+          "doc_count": 894
+        },
+        {
+          "term": "net",
+          "score": 3918.0176,
+          "doc_coverage": 0.0662,
+          "doc_count": 907
+        },
+        {
+          "term": "cumulative",
+          "score": 3836.5729,
+          "doc_coverage": 0.0634,
+          "doc_count": 868
+        },
+        {
+          "term": "tax",
+          "score": 3816.5542,
+          "doc_coverage": 0.0535,
+          "doc_count": 733
+        },
+        {
+          "term": "index",
+          "score": 3551.2052,
+          "doc_coverage": 0.0344,
+          "doc_count": 471
+        },
+        {
+          "term": "notes",
+          "score": 3426.7466,
+          "doc_coverage": 0.0583,
+          "doc_count": 798
+        },
+        {
+          "term": "cash",
+          "score": 3407.7939,
+          "doc_coverage": 0.054,
+          "doc_count": 740
+        },
+        {
+          "term": "common",
+          "score": 3271.9799,
+          "doc_coverage": 0.0497,
+          "doc_count": 681
+        },
+        {
+          "term": "company",
+          "score": 3249.6448,
+          "doc_coverage": 0.0523,
+          "doc_count": 717
+        },
+        {
+          "term": "consolidated",
+          "score": 3206.5045,
+          "doc_coverage": 0.0594,
+          "doc_count": 814
+        },
+        {
+          "term": "statements",
+          "score": 3076.0863,
+          "doc_coverage": 0.0569,
+          "doc_count": 780
+        },
+        {
+          "term": "share",
+          "score": 3056.5364,
+          "doc_coverage": 0.0521,
+          "doc_count": 713
+        },
+        {
+          "term": "operating",
+          "score": 3029.1543,
+          "doc_coverage": 0.0537,
+          "doc_count": 735
+        },
+        {
+          "term": "income",
+          "score": 2996.5694,
+          "doc_coverage": 0.0453,
+          "doc_count": 620
+        },
+        {
+          "term": "financial_statements",
+          "score": 2988.6703,
+          "doc_coverage": 0.0557,
+          "doc_count": 763
+        },
+        {
+          "term": "common_stock",
+          "score": 2961.4945,
+          "doc_coverage": 0.0444,
+          "doc_count": 608
+        }
+      ]
+    }
+  },
+  {
+    "dataset": "HybridQA",
+    "dataset_stats": {
+      "dataset": "HybridQA",
+      "splits": {
+        "train": 4843,
+        "dev": 1997,
+        "test": 1980
+      },
+      "total_examples": 8820,
+      "avg_dpr_length_words": 76.41,
+      "ground_truth_counts": {
+        "total_table_refs": 61889,
+        "total_text_refs": 2590116,
+        "total_synth_text_refs": 208078,
+        "unique_table_ids": 11490,
+        "unique_text_ids": 220500,
+        "unique_synth_text_ids": 38625
+      },
+      "topic_coverage": [
+        {
+          "term": "dataset",
+          "score": 13271.215,
+          "doc_coverage": 0.7083,
+          "doc_count": 6247
+        },
+        {
+          "term": "historical",
+          "score": 11151.4909,
+          "doc_coverage": 0.4551,
+          "doc_count": 4014
+        },
+        {
+          "term": "data",
+          "score": 10469.2704,
+          "doc_coverage": 0.6569,
+          "doc_count": 5794
+        },
+        {
+          "term": "team",
+          "score": 9619.4929,
+          "doc_coverage": 0.209,
+          "doc_count": 1843
+        },
+        {
+          "term": "including",
+          "score": 9574.2535,
+          "doc_coverage": 0.6255,
+          "doc_count": 5517
+        },
+        {
+          "term": "performance",
+          "score": 9480.1212,
+          "doc_coverage": 0.3607,
+          "doc_count": 3181
+        },
+        {
+          "term": "compile",
+          "score": 8579.3106,
+          "doc_coverage": 0.7588,
+          "doc_count": 6693
+        },
+        {
+          "term": "information",
+          "score": 8395.1376,
+          "doc_coverage": 0.5313,
+          "doc_count": 4686
+        },
+        {
+          "term": "player",
+          "score": 8157.4564,
+          "doc_coverage": 0.1306,
+          "doc_count": 1152
+        },
+        {
+          "term": "support",
+          "score": 7693.4552,
+          "doc_coverage": 0.5243,
+          "doc_count": 4624
+        },
+        {
+          "term": "details",
+          "score": 7605.4,
+          "doc_coverage": 0.405,
+          "doc_count": 3572
+        },
+        {
+          "term": "across",
+          "score": 7554.4748,
+          "doc_coverage": 0.4053,
+          "doc_count": 3575
+        },
+        {
+          "term": "queries",
+          "score": 7428.3025,
+          "doc_coverage": 0.4655,
+          "doc_count": 4106
+        },
+        {
+          "term": "events",
+          "score": 7316.7648,
+          "doc_coverage": 0.2561,
+          "doc_count": 2259
+        },
+        {
+          "term": "sports",
+          "score": 7078.4674,
+          "doc_coverage": 0.2011,
+          "doc_count": 1774
+        },
+        {
+          "term": "name",
+          "score": 7012.4569,
+          "doc_coverage": 0.1653,
+          "doc_count": 1458
+        },
+        {
+          "term": "locations",
+          "score": 6894.9144,
+          "doc_coverage": 0.2744,
+          "doc_count": 2420
+        },
+        {
+          "term": "compile_dataset",
+          "score": 6589.5721,
+          "doc_coverage": 0.3788,
+          "doc_count": 3341
+        },
+        {
+          "term": "trends",
+          "score": 6530.2176,
+          "doc_coverage": 0.3475,
+          "doc_count": 3065
+        },
+        {
+          "term": "analysis",
+          "score": 6390.4911,
+          "doc_coverage": 0.3406,
+          "doc_count": 3004
+        },
+        {
+          "term": "dates",
+          "score": 6143.1944,
+          "doc_coverage": 0.231,
+          "doc_count": 2037
+        },
+        {
+          "term": "various",
+          "score": 5980.1816,
+          "doc_coverage": 0.2957,
+          "doc_count": 2608
+        },
+        {
+          "term": "includes",
+          "score": 5913.4226,
+          "doc_coverage": 0.3053,
+          "doc_count": 2693
+        },
+        {
+          "term": "different",
+          "score": 5891.3586,
+          "doc_coverage": 0.2611,
+          "doc_count": 2303
+        },
+        {
+          "term": "comprehensive",
+          "score": 5781.8858,
+          "doc_coverage": 0.2948,
+          "doc_count": 2600
+        }
+      ]
+    },
+    "corpus_stats": {
+      "dataset": "HybridQA",
+      "corpus": {
+        "entries": 12378,
+        "unique_table_ids": 12378,
+        "total_text_snippets": 413952,
+        "total_synth_text": 41608,
+        "avg_table_rows": 15.79,
+        "avg_table_cols": 4.49
+      },
+      "topic_coverage": [
+        {
+          "term": "key",
+          "score": 17882.2663,
+          "doc_coverage": 0.1004,
+          "doc_count": 5422
+        },
+        {
+          "term": "overview",
+          "score": 17879.9679,
+          "doc_coverage": 0.1004,
+          "doc_count": 5421
+        },
+        {
+          "term": "highlights",
+          "score": 17616.4161,
+          "doc_coverage": 0.0982,
+          "doc_count": 5304
+        },
+        {
+          "term": "list",
+          "score": 17346.3717,
+          "doc_coverage": 0.0962,
+          "doc_count": 5191
+        },
+        {
+          "term": "historic",
+          "score": 12514.2816,
+          "doc_coverage": 0.0554,
+          "doc_count": 2992
+        },
+        {
+          "term": "notable",
+          "score": 11293.7521,
+          "doc_coverage": 0.0532,
+          "doc_count": 2871
+        },
+        {
+          "term": "world",
+          "score": 10636.5545,
+          "doc_coverage": 0.0489,
+          "doc_count": 2638
+        },
+        {
+          "term": "national",
+          "score": 9823.1632,
+          "doc_coverage": 0.0435,
+          "doc_count": 2349
+        },
+        {
+          "term": "league",
+          "score": 9255.6804,
+          "doc_coverage": 0.0405,
+          "doc_count": 2184
+        },
+        {
+          "term": "season",
+          "score": 8771.6072,
+          "doc_coverage": 0.037,
+          "doc_count": 1999
+        },
+        {
+          "term": "early",
+          "score": 8564.5138,
+          "doc_coverage": 0.0368,
+          "doc_count": 1987
+        },
+        {
+          "term": "county",
+          "score": 8324.3112,
+          "doc_coverage": 0.0333,
+          "doc_count": 1797
+        },
+        {
+          "term": "five",
+          "score": 8067.0783,
+          "doc_coverage": 0.034,
+          "doc_count": 1838
+        },
+        {
+          "term": "championships",
+          "score": 7419.0942,
+          "doc_coverage": 0.0306,
+          "doc_count": 1653
+        },
+        {
+          "term": "clubs",
+          "score": 7362.2481,
+          "doc_coverage": 0.0303,
+          "doc_count": 1638
+        },
+        {
+          "term": "football",
+          "score": 7282.1875,
+          "doc_coverage": 0.0298,
+          "doc_count": 1610
+        },
+        {
+          "term": "selected",
+          "score": 7253.5996,
+          "doc_coverage": 0.0298,
+          "doc_count": 1607
+        },
+        {
+          "term": "united",
+          "score": 7040.9159,
+          "doc_coverage": 0.0282,
+          "doc_count": 1525
+        },
+        {
+          "term": "alumni",
+          "score": 6877.5005,
+          "doc_coverage": 0.0278,
+          "doc_count": 1501
+        },
+        {
+          "term": "winners",
+          "score": 6846.2297,
+          "doc_coverage": 0.0276,
+          "doc_count": 1491
+        },
+        {
+          "term": "locations",
+          "score": 6751.6979,
+          "doc_coverage": 0.0272,
+          "doc_count": 1466
+        },
+        {
+          "term": "top",
+          "score": 6632.6923,
+          "doc_coverage": 0.0265,
+          "doc_count": 1428
+        },
+        {
+          "term": "film",
+          "score": 6595.7331,
+          "doc_coverage": 0.0262,
+          "doc_count": 1414
+        },
+        {
+          "term": "states",
+          "score": 6592.7236,
+          "doc_coverage": 0.0262,
+          "doc_count": 1417
+        },
+        {
+          "term": "television",
+          "score": 6488.9474,
+          "doc_coverage": 0.0257,
+          "doc_count": 1386
+        }
+      ]
+    }
+  },
+  {
+    "dataset": "TATQA",
+    "dataset_stats": {
+      "dataset": "TATQA",
+      "splits": {
+        "train": 820,
+        "dev": 147,
+        "test": 176
+      },
+      "total_examples": 1143,
+      "avg_dpr_length_words": 95.28,
+      "ground_truth_counts": {
+        "total_table_refs": 4404,
+        "total_text_refs": 28445,
+        "total_synth_text_refs": 7616,
+        "unique_table_ids": 1497,
+        "unique_text_ids": 8711,
+        "unique_synth_text_ids": 2573
+      },
+      "topic_coverage": [
+        {
+          "term": "financial",
+          "score": 2229.7797,
+          "doc_coverage": 0.6667,
+          "doc_count": 762
+        },
+        {
+          "term": "tax",
+          "score": 2000.8088,
+          "doc_coverage": 0.2476,
+          "doc_count": 283
+        },
+        {
+          "term": "revenue",
+          "score": 1884.135,
+          "doc_coverage": 0.2948,
+          "doc_count": 337
+        },
+        {
+          "term": "dataset",
+          "score": 1827.6729,
+          "doc_coverage": 0.8049,
+          "doc_count": 920
+        },
+        {
+          "term": "cash",
+          "score": 1771.7173,
+          "doc_coverage": 0.1864,
+          "doc_count": 213
+        },
+        {
+          "term": "net",
+          "score": 1732.225,
+          "doc_coverage": 0.4418,
+          "doc_count": 505
+        },
+        {
+          "term": "assets",
+          "score": 1697.5079,
+          "doc_coverage": 0.2992,
+          "doc_count": 342
+        },
+        {
+          "term": "income",
+          "score": 1677.4952,
+          "doc_coverage": 0.3342,
+          "doc_count": 382
+        },
+        {
+          "term": "changes",
+          "score": 1622.4614,
+          "doc_coverage": 0.8294,
+          "doc_count": 948
+        },
+        {
+          "term": "total",
+          "score": 1599.6231,
+          "doc_coverage": 0.3666,
+          "doc_count": 419
+        },
+        {
+          "term": "expenses",
+          "score": 1367.405,
+          "doc_coverage": 0.3053,
+          "doc_count": 349
+        },
+        {
+          "term": "performance",
+          "score": 1256.3284,
+          "doc_coverage": 0.4593,
+          "doc_count": 525
+        },
+        {
+          "term": "including",
+          "score": 1236.7008,
+          "doc_coverage": 0.6439,
+          "doc_count": 736
+        },
+        {
+          "term": "data",
+          "score": 1217.0318,
+          "doc_coverage": 0.5809,
+          "doc_count": 664
+        },
+        {
+          "term": "share",
+          "score": 1177.0671,
+          "doc_coverage": 0.2073,
+          "doc_count": 237
+        },
+        {
+          "term": "operating",
+          "score": 1166.2385,
+          "doc_coverage": 0.308,
+          "doc_count": 352
+        },
+        {
+          "term": "liabilities",
+          "score": 1163.4003,
+          "doc_coverage": 0.196,
+          "doc_count": 224
+        },
+        {
+          "term": "company's",
+          "score": 1150.2483,
+          "doc_coverage": 0.2843,
+          "doc_count": 325
+        },
+        {
+          "term": "trends",
+          "score": 1101.7453,
+          "doc_coverage": 0.608,
+          "doc_count": 695
+        },
+        {
+          "term": "percentage",
+          "score": 1101.2996,
+          "doc_coverage": 0.3972,
+          "doc_count": 454
+        },
+        {
+          "term": "metrics",
+          "score": 1097.0419,
+          "doc_coverage": 0.3841,
+          "doc_count": 439
+        },
+        {
+          "term": "analysis",
+          "score": 1084.1007,
+          "doc_coverage": 0.5888,
+          "doc_count": 673
+        },
+        {
+          "term": "compile",
+          "score": 1063.1031,
+          "doc_coverage": 0.6509,
+          "doc_count": 744
+        },
+        {
+          "term": "support",
+          "score": 1043.3327,
+          "doc_coverage": 0.5897,
+          "doc_count": 674
+        },
+        {
+          "term": "impact",
+          "score": 1017.0362,
+          "doc_coverage": 0.4759,
+          "doc_count": 544
+        }
+      ]
+    },
+    "corpus_stats": {
+      "dataset": "TATQA",
+      "corpus": {
+        "entries": 2757,
+        "unique_table_ids": 2757,
+        "total_text_snippets": 13155,
+        "total_synth_text": 4760,
+        "avg_table_rows": 2.99,
+        "avg_table_cols": 8.37
+      },
+      "topic_coverage": [
+        {
+          "term": "summary",
+          "score": 4888.9095,
+          "doc_coverage": 0.2912,
+          "doc_count": 2189
+        },
+        {
+          "term": "overview",
+          "score": 2725.7539,
+          "doc_coverage": 0.1145,
+          "doc_count": 861
+        },
+        {
+          "term": "financial",
+          "score": 2465.8834,
+          "doc_coverage": 0.0987,
+          "doc_count": 742
+        },
+        {
+          "term": "tax",
+          "score": 2074.4024,
+          "doc_coverage": 0.0595,
+          "doc_count": 447
+        },
+        {
+          "term": "revenue",
+          "score": 1915.4446,
+          "doc_coverage": 0.0677,
+          "doc_count": 509
+        },
+        {
+          "term": "income",
+          "score": 1781.9823,
+          "doc_coverage": 0.0597,
+          "doc_count": 449
+        },
+        {
+          "term": "net",
+          "score": 1717.7479,
+          "doc_coverage": 0.0581,
+          "doc_count": 437
+        },
+        {
+          "term": "performance",
+          "score": 1674.6236,
+          "doc_coverage": 0.0577,
+          "doc_count": 434
+        },
+        {
+          "term": "cash",
+          "score": 1483.209,
+          "doc_coverage": 0.0382,
+          "doc_count": 287
+        },
+        {
+          "term": "share",
+          "score": 1430.6592,
+          "doc_coverage": 0.0439,
+          "doc_count": 330
+        },
+        {
+          "term": "expense",
+          "score": 1385.4807,
+          "doc_coverage": 0.045,
+          "doc_count": 338
+        },
+        {
+          "term": "highlights",
+          "score": 1332.3117,
+          "doc_coverage": 0.0427,
+          "doc_count": 321
+        },
+        {
+          "term": "segment",
+          "score": 1191.3875,
+          "doc_coverage": 0.0367,
+          "doc_count": 276
+        },
+        {
+          "term": "key",
+          "score": 1183.78,
+          "doc_coverage": 0.0366,
+          "doc_count": 275
+        },
+        {
+          "term": "assets",
+          "score": 1171.2078,
+          "doc_coverage": 0.0354,
+          "doc_count": 266
+        },
+        {
+          "term": "stock",
+          "score": 1164.2628,
+          "doc_coverage": 0.0346,
+          "doc_count": 260
+        },
+        {
+          "term": "operating",
+          "score": 1144.4756,
+          "doc_coverage": 0.0343,
+          "doc_count": 258
+        },
+        {
+          "term": "activity",
+          "score": 1044.92,
+          "doc_coverage": 0.0311,
+          "doc_count": 234
+        },
+        {
+          "term": "reconciliation",
+          "score": 1006.4903,
+          "doc_coverage": 0.0297,
+          "doc_count": 223
+        },
+        {
+          "term": "breakdown",
+          "score": 988.8444,
+          "doc_coverage": 0.029,
+          "doc_count": 218
+        },
+        {
+          "term": "financial_highlights",
+          "score": 978.2021,
+          "doc_coverage": 0.0286,
+          "doc_count": 215
+        },
+        {
+          "term": "growth",
+          "score": 931.5936,
+          "doc_coverage": 0.0269,
+          "doc_count": 202
+        },
+        {
+          "term": "december",
+          "score": 930.4112,
+          "doc_coverage": 0.0258,
+          "doc_count": 194
+        },
+        {
+          "term": "compensation",
+          "score": 900.8391,
+          "doc_coverage": 0.0254,
+          "doc_count": 191
+        },
+        {
+          "term": "flow",
+          "score": 891.2426,
+          "doc_coverage": 0.0242,
+          "doc_count": 182
+        }
+      ]
+    }
+  }
+]
