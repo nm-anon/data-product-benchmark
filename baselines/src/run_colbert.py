@@ -34,17 +34,15 @@ def prepare_corpus(corpus_path):
     return documents, doc_ids
 
 def main(args):
-    # 1. Initialize official ColBERT checkpoint via RAGatouille
-    # This uses the native colbert-ai backend with residual compression
+
     print(f"Loading ColBERT model: {args.model}")
     rag = RAGPretrainedModel.from_pretrained(args.model)
 
-    # 2. Prepare Data
     documents, doc_ids = prepare_corpus(args.corpus)
     print(f"Indexing {len(documents)} documents natively...")
 
-    # 3. Native Indexing (IVF + Residual Compression)
-    # This creates a local '.ragatouille/' directory with the native index
+    # native indexing (IVF + Residual Compression)
+    # creates a local '.ragatouille/' directory with the native index
     index_path = rag.index(
         collection=documents,
         document_ids=doc_ids,
@@ -88,8 +86,8 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--corpus", type=str, default="data/corpus.json")
-    p.add_argument("--dpr", type=str, default="data/test.jsonl")
+    p.add_argument("--corpus", type=str, default="data/TATQA_corpus.json")
+    p.add_argument("--dpr", type=str, default="data/TATQA_test.jsonl")
     p.add_argument("--dataset", type=str, default="TATQA")
     p.add_argument("--model", type=str, default="colbert-ir/colbertv2.0")
     p.add_argument("--index_name", type=str, default="standalone_colbert_index")
