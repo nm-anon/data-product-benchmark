@@ -143,7 +143,8 @@ def hybrid_search(client, query_content, query_emb, collection_name = "text_coll
         scores = {}
         for hit in hits:
             uid = hit.entity.get("uuid")
-            scores[uid] = hit.score
+            content = hit.entity.get("content")
+            scores[(content,uid)] = hit.score
         ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
         ranked = [x for x in ranked if x[1] > 0]
     return ranked
