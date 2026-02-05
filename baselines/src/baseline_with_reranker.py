@@ -135,7 +135,7 @@ def hybrid_search(client, query_content, query_emb, collection_name = "text_coll
         reqs=reqs,
         ranker=ranker,
         limit=top_k*2,
-        output_fields=["uuid"]
+        output_fields=["uuid", "content"]
     )
 
     ranked = []
