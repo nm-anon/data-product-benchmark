@@ -23,6 +23,12 @@ COLORS = [
     "#F2B6CF", "#BDBDBD",
 ]
 
+VALIDATED_TOTALS = {
+    "HybridQA": 8820,
+    "TATQA": 1143,
+    "ConvFinQA": 3113,
+}
+
 
 def _clean_topic_name(name):
     text = name.strip().replace("_", " ")
@@ -49,6 +55,7 @@ def save_topic_pie_from_json(
     out_dir: Path,
     min_share: float = 0.02,
     min_count: int = 0,
+    dataset_totals: dict | None = None,
 ):
     data = json.loads(json_path.read_text())
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -102,6 +109,13 @@ def save_topic_pie_from_json(
         sorted_data = sorted(zip(sizes, labels, colors), key=lambda x: x[0], reverse=True)
         counts_sorted, topics_sorted, colors_sorted = zip(*sorted_data)
         total_count = sum(counts_sorted)
+        dataset_total = None
+        if dataset in VALIDATED_TOTALS:
+            dataset_total = VALIDATED_TOTALS[dataset]
+        elif dataset_totals:
+            dataset_total = dataset_totals.get(dataset)
+        if dataset_total is not None and dataset_total > total_count:
+            total_count = dataset_total
 
         fig, ax = plt.subplots(figsize=(12, 12), dpi=300)
         wedges, _ = ax.pie(
@@ -168,9 +182,26 @@ def main():
     parser.add_argument("--out", default="bertopic_pies", help="Output directory for PNG charts")
     parser.add_argument("--min-share", type=float, default=0.02, help="Minimum share to show as its own slice")
     parser.add_argument("--min-count", type=int, default=0, help="Minimum count to show as its own slice")
+    parser.add_argument("--dataset-totals", default="benchmark_characteristics.json", help="Dataset totals JSON")
     args = parser.parse_args()
 
-    save_topic_pie_from_json(Path(args.json), Path(args.out), min_share=args.min_share, min_count=args.min_count)
+    dataset_totals = {}
+    totals_path = Path(args.dataset_totals)
+    if totals_path.exists():
+        totals_data = json.loads(totals_path.read_text())
+        for item in totals_data:
+            ds_name = item.get("dataset")
+            ds_stats = item.get("dataset_stats", {})
+            if ds_name and "total_examples" in ds_stats:
+                dataset_totals[ds_name] = ds_stats["total_examples"]
+
+    save_topic_pie_from_json(
+        Path(args.json),
+        Path(args.out),
+        min_share=args.min_share,
+        min_count=args.min_count,
+        dataset_totals=dataset_totals,
+    )
     print(f"Wrote pie charts to {args.out}")
 
 

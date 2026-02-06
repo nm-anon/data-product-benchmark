@@ -1,10 +1,10 @@
 # TATQA Topic Coverage
 
-- Corporate finance: 358 (43.9%)
-- Financial markets: 163 (20.0%)
-- Debt and credit: 96 (11.8%)
-- Taxation: 88 (10.8%)
-- Real estate: 57 (7.0%)
-- Receivables accrued: 54 (6.6%)
+- Corporate finance: 358 (31.3%)
+- Financial markets: 163 (14.3%)
+- Debt and credit: 96 (8.4%)
+- Taxation: 88 (7.7%)
+- Real estate: 57 (5.0%)
+- Receivables accrued: 54 (4.7%)
 
-Total: 816
+Total: 1,143
