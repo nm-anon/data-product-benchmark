@@ -30,7 +30,7 @@ def _clean_topic_name(name):
     text = re.sub(r"\s+", " ", text).strip()
     if not text:
         return ""
-    return text.title()
+    return text[0].upper() + text[1:]
 
 
 def _topic_label(topic):
@@ -76,12 +76,27 @@ def save_topic_pie_from_json(
             else:
                 other_count += count
 
-        if other_count > 0:
+        other_share = other_count / total if total else 0
+        if other_count > 0 and other_share <= 0.5:
             labels.append("Other")
             sizes.append(other_count)
+        elif other_share > 0.5:
+            # If "Other" would dominate, show all topics instead.
+            labels = []
+            sizes = []
+            for t in topics_sorted:
+                labels.append(_topic_label(t))
+                sizes.append(t.get("count", 0))
 
         if not sizes:
             continue
+
+        # Aggregate repeated labels to avoid duplicate legend entries.
+        agg = {}
+        for label, count in zip(labels, sizes):
+            agg[label] = agg.get(label, 0) + count
+        labels = list(agg.keys())
+        sizes = list(agg.values())
 
         colors = [COLORS[i % len(COLORS)] for i in range(len(sizes))]
         sorted_data = sorted(zip(sizes, labels, colors), key=lambda x: x[0], reverse=True)
@@ -112,6 +127,8 @@ def save_topic_pie_from_json(
 
         for wedge, count in zip(wedges, counts_sorted):
             percent = count / total_count * 100
+            if percent < 1.3:
+                continue
             theta = (wedge.theta2 + wedge.theta1) / 2.0
             rad = pi / 180 * theta
             x = cos(rad) * 1.05

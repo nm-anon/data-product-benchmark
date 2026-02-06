@@ -1,7 +1,101 @@
 from bertopic import BERTopic
 import argparse
 import json
+import re
 from pathlib import Path
+
+
+STOPWORDS = {
+    "the",
+    "and",
+    "of",
+    "in",
+    "on",
+    "for",
+    "to",
+    "a",
+    "an",
+    "or",
+    "with",
+    "by",
+    "per",
+    "as",
+    "from",
+    "at",
+    "into",
+    "their",
+    "its",
+    "companys",
+    "companies",
+    "company",
+    "dataset",
+}
+
+GENERAL_LABELS = [
+    ("music", {"music", "song", "songs", "album", "albums", "artist", "artists", "band", "chart"}),
+    ("film", {"film", "films", "movie", "movies", "director", "directors", "actor", "actors", "cast"}),
+    ("sports", {"sport", "sports", "athlete", "athletes", "team", "teams", "league", "match", "tournament", "olympic", "olympics", "player", "players"}),
+    ("politics", {"political", "election", "party", "parties", "government", "legislative", "parliament", "district", "representation"}),
+    ("geography", {"population", "city", "cities", "region", "regions", "country", "countries", "area", "county", "province", "state", "administrative"}),
+    ("history", {"historic", "historical", "ancient", "dynasty", "heritage", "landmark", "landmarks"}),
+    ("education", {"university", "universities", "school", "schools", "college", "colleges", "students", "enrollment"}),
+    ("religion", {"church", "churches", "religious", "catholic", "worship", "denomination", "denominations"}),
+    ("transportation", {"airport", "airports", "rail", "railway", "station", "stations", "transit", "route", "routes", "bridge", "bridges", "tunnel", "tunnels", "ship", "ships", "naval", "maritime"}),
+    ("military", {"military", "war", "battle", "battles", "army", "navy", "airforce", "medal", "honor", "ranks", "units"}),
+    ("art", {"art", "artworks", "painting", "paintings", "artist", "artists", "sculpture", "sculptures"}),
+    ("literature", {"author", "authors", "book", "books", "novel", "novels", "literary", "publication"}),
+    ("language", {"language", "languages", "speaker", "speakers", "dialect", "dialects", "script", "scripts"}),
+    ("business", {"business", "company", "companies", "corporation", "corporations", "industry", "market", "markets", "headquarters"}),
+    ("space", {"space", "satellite", "launch", "mission", "missions", "spacecraft"}),
+    ("energy", {"energy", "power", "oil", "gas", "fuel", "wind"}),
+    ("financial_markets", {"index", "indices", "stock", "stocks", "market", "markets", "sp", "dow", "nasdaq", "equity", "share", "shares", "price", "return", "returns"}),
+    ("corporate_finance", {"revenue", "income", "sales", "profit", "earnings", "cash", "cashflow", "liquidity", "operating", "financing"}),
+    ("debt_and_credit", {"debt", "credit", "loan", "loans", "obligation", "obligations", "covenant", "covenants", "interest"}),
+    ("taxation", {"tax", "taxes", "taxation", "benefits"}),
+    ("pensions", {"pension", "retirement", "benefit", "benefits"}),
+    ("leases", {"lease", "leases", "payments"}),
+    ("insurance", {"insurance", "reinsurance", "claims", "reserves"}),
+    ("derivatives", {"derivative", "derivatives", "hedging", "swap", "currency", "exchange"}),
+    ("mergers_acquisitions", {"acquisition", "acquisitions", "acquired", "purchase", "allocation", "merger"}),
+    ("impairment", {"impairment", "goodwill", "amortization", "intangible"}),
+    ("valuation", {"fair", "value", "fairvalue"}),
+    ("share_repurchases", {"repurchase", "repurchases", "buyback"}),
+    ("earnings_per_share", {"diluted", "basic", "eps"}),
+    ("real_estate", {"real", "estate", "hotel", "hotels", "resort", "resorts", "property"}),
+    ("manufacturing", {"printing", "pulp", "paper", "packaging", "manufacturing"}),
+]
+
+
+def normalize_tokens(words):
+    tokens = []
+    for w in words:
+        w = re.sub(r"[^a-z0-9]+", "", w.lower())
+        if not w or w in STOPWORDS:
+            continue
+        if w.isdigit():
+            continue
+        tokens.append(w)
+    return tokens
+
+
+def infer_general_label(tokens):
+    token_set = set(tokens)
+    for label, keywords in GENERAL_LABELS:
+        if token_set & keywords:
+            return label
+    return None
+
+
+def generate_topic_name(topic_id, top_words, row_name):
+    tokens = normalize_tokens(top_words)
+    if row_name:
+        tokens.extend(normalize_tokens(row_name.split("_")))
+    label = infer_general_label(tokens)
+    if label:
+        return f"{topic_id}_{label}"
+    if tokens:
+        return f"{topic_id}_{'_'.join(tokens[:2])}"
+    return f"{topic_id}_topic"
 
 
 def iter_jsonl(path: Path):
@@ -47,7 +141,7 @@ def analyze_with_bertopic(texts, topk=10, min_topic_size=20):
             {
                 "topic_id": topic_id,
                 "count": int(row["Count"]),
-                "name": row["Name"],
+                "name": generate_topic_name(topic_id, top_words, row["Name"]),
                 "top_words": top_words,
             }
         )
