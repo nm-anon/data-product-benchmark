@@ -150,6 +150,17 @@ def save_topic_pie_from_json(
         fig.savefig(out_dir / f"{dataset}_topic_pie.png", bbox_inches="tight")
         plt.close(fig)
 
+        # Write a natural language summary alongside the chart.
+        summary_lines = []
+        summary_lines.append(f"# {dataset} Topic Coverage")
+        summary_lines.append("")
+        for label, count in zip(topics_sorted, counts_sorted):
+            percent = count / total_count * 100
+            summary_lines.append(f"- {label}: {count:,} ({percent:.1f}%)")
+        summary_lines.append("")
+        summary_lines.append(f"Total: {total_count:,}")
+        (out_dir / f"{dataset}_topic_summary.md").write_text("\n".join(summary_lines))
+
 
 def main():
     parser = argparse.ArgumentParser()
