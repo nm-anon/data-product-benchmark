@@ -4,24 +4,24 @@
     "topics": [
       {
         "topic_id": 0,
-        "count": 265,
+        "count": 263,
         "name": "0_financial_markets",
         "top_words": [
           "compensation",
           "stock",
-          "the",
           "awards",
+          "the",
           "options",
-          "of",
           "expected",
           "vesting",
+          "of",
           "restricted",
-          "shares"
+          "fair"
         ]
       },
       {
         "topic_id": 1,
-        "count": 186,
+        "count": 210,
         "name": "1_financial_markets",
         "top_words": [
           "index",
@@ -32,81 +32,81 @@
           "stock",
           "performance",
           "the",
-          "indices",
-          "total"
+          "common",
+          "indices"
         ]
       },
       {
         "topic_id": 2,
-        "count": 184,
-        "name": "2_energy",
-        "top_words": [
-          "and",
-          "oil",
-          "the",
-          "fuel",
-          "gas",
-          "of",
-          "changes",
-          "in",
-          "price",
-          "energy"
-        ]
-      },
-      {
-        "topic_id": 3,
         "count": 183,
-        "name": "3_corporate_finance",
-        "top_words": [
-          "revenue",
-          "entergy",
-          "regulatory",
-          "net",
-          "and",
-          "the",
-          "financial",
-          "of",
-          "changes",
-          "volumeweather"
-        ]
-      },
-      {
-        "topic_id": 4,
-        "count": 176,
-        "name": "4_taxation",
+        "name": "2_taxation",
         "top_words": [
           "tax",
           "positions",
           "unrecognized",
           "benefits",
           "the",
-          "of",
           "settlements",
+          "of",
           "and",
           "reductions",
-          "additions"
+          "changes"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "count": 180,
+        "name": "3_corporate_finance",
+        "top_words": [
+          "entergy",
+          "revenue",
+          "regulatory",
+          "net",
+          "and",
+          "the",
+          "financial",
+          "of",
+          "volumeweather",
+          "changes"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "count": 149,
+        "name": "4_corporate_finance",
+        "top_words": [
+          "sales",
+          "financial",
+          "and",
+          "income",
+          "performance",
+          "operating",
+          "net",
+          "segments",
+          "metrics",
+          "the"
         ]
       },
       {
         "topic_id": 5,
-        "count": 163,
-        "name": "5_corporate_finance",
+        "count": 145,
+        "name": "5_energy",
         "top_words": [
-          "sales",
+          "oil",
           "and",
-          "performance",
-          "financial",
-          "operating",
-          "income",
-          "segments",
+          "gas",
+          "fuel",
           "the",
-          "as",
-          "of"
+          "price",
+          "reserves",
+          "of",
+          "prices",
+          "changes"
         ]
       },
       {
         "topic_id": 6,
-        "count": 137,
+        "count": 134,
         "name": "6_debt_and_credit",
         "top_words": [
           "debt",
@@ -123,25 +123,8 @@
       },
       {
         "topic_id": 7,
-        "count": 126,
-        "name": "7_corporate_finance",
-        "top_words": [
-          "cash",
-          "activities",
-          "flow",
-          "liquidity",
-          "capital",
-          "investing",
-          "and",
-          "operating",
-          "financing",
-          "provided"
-        ]
-      },
-      {
-        "topic_id": 8,
-        "count": 120,
-        "name": "8_debt_and_credit",
+        "count": 129,
+        "name": "7_debt_and_credit",
         "top_words": [
           "lease",
           "minimum",
@@ -156,6 +139,23 @@
         ]
       },
       {
+        "topic_id": 8,
+        "count": 122,
+        "name": "8_corporate_finance",
+        "top_words": [
+          "cash",
+          "activities",
+          "flow",
+          "liquidity",
+          "capital",
+          "investing",
+          "and",
+          "operating",
+          "financing",
+          "provided"
+        ]
+      },
+      {
         "topic_id": 9,
         "count": 103,
         "name": "9_impairment",
@@ -164,18 +164,35 @@
           "the",
           "and",
           "goodwill",
-          "of",
           "amortization",
-          "financial",
+          "of",
           "assets",
-          "on",
-          "depreciation"
+          "financial",
+          "for",
+          "property"
         ]
       },
       {
         "topic_id": 10,
+        "count": 88,
+        "name": "10_mergers_acquisitions",
+        "top_words": [
+          "acquisitions",
+          "assets",
+          "acquisition",
+          "acquired",
+          "the",
+          "of",
+          "allocation",
+          "purchase",
+          "and",
+          "financial"
+        ]
+      },
+      {
+        "topic_id": 11,
         "count": 82,
-        "name": "10_pensions",
+        "name": "11_corporate_finance",
         "top_words": [
           "pension",
           "benefit",
@@ -184,49 +201,49 @@
           "expected",
           "contributions",
           "payments",
+          "cost",
           "on",
-          "the",
-          "cost"
-        ]
-      },
-      {
-        "topic_id": 11,
-        "count": 82,
-        "name": "11_mergers_acquisitions",
-        "top_words": [
-          "acquisitions",
-          "assets",
-          "acquisition",
-          "acquired",
-          "the",
-          "of",
-          "purchase",
-          "allocation",
-          "and",
-          "goodwill"
+          "the"
         ]
       },
       {
         "topic_id": 12,
-        "count": 81,
-        "name": "12_debt_and_credit",
+        "count": 79,
+        "name": "12_financial_markets",
+        "top_words": [
+          "repurchase",
+          "shares",
+          "share",
+          "repurchases",
+          "purchased",
+          "number",
+          "the",
+          "of",
+          "average",
+          "stock"
+        ]
+      },
+      {
+        "topic_id": 13,
+        "count": 77,
+        "name": "13_debt_and_credit",
         "top_words": [
           "loan",
           "credit",
-          "commitments",
+          "loans",
+          "losses",
           "and",
           "risk",
-          "loans",
+          "commitments",
           "the",
-          "losses",
           "of",
           "commercial"
         ]
       },
       {
-        "topic_id": 13,
+        "topic_id": 14,
         "count": 75,
-        "name": "13_debt_and_credit",
+        "name": "14_debt_and_credit",
         "top_words": [
           "jpmorgan",
           "chase",
@@ -241,25 +258,8 @@
         ]
       },
       {
-        "topic_id": 14,
-        "count": 60,
-        "name": "14_financial_markets",
-        "top_words": [
-          "repurchase",
-          "shares",
-          "share",
-          "repurchases",
-          "number",
-          "purchased",
-          "stock",
-          "the",
-          "paid",
-          "average"
-        ]
-      },
-      {
         "topic_id": 15,
-        "count": 50,
+        "count": 56,
         "name": "15_debt_and_credit",
         "top_words": [
           "fair",
@@ -268,33 +268,50 @@
           "assets",
           "of",
           "and",
-          "instruments",
           "level",
+          "instruments",
           "loans",
-          "risk"
+          "on"
         ]
       },
       {
         "topic_id": 16,
-        "count": 38,
-        "name": "16_debt_and_credit",
+        "count": 44,
+        "name": "16_insurance",
+        "top_words": [
+          "reinsurance",
+          "reserves",
+          "claims",
+          "environmental",
+          "and",
+          "insurance",
+          "amounts",
+          "the",
+          "of",
+          "premiums"
+        ]
+      },
+      {
+        "topic_id": 17,
+        "count": 39,
+        "name": "17_debt_and_credit",
         "top_words": [
           "hedging",
           "instruments",
           "derivative",
           "currency",
           "foreign",
-          "exchange",
           "rate",
+          "exchange",
           "interest",
           "risk",
           "of"
         ]
       },
       {
-        "topic_id": 17,
+        "topic_id": 18,
         "count": 35,
-        "name": "17_financial_markets",
+        "name": "18_financial_markets",
         "top_words": [
           "shares",
           "diluted",
@@ -309,32 +326,15 @@
         ]
       },
       {
-        "topic_id": 18,
-        "count": 34,
-        "name": "18_insurance",
-        "top_words": [
-          "reinsurance",
-          "insurance",
-          "claims",
-          "premiums",
-          "amounts",
-          "surplus",
-          "and",
-          "the",
-          "assumed",
-          "environmental"
-        ]
-      },
-      {
         "topic_id": 19,
-        "count": 32,
+        "count": 33,
         "name": "19_business",
         "top_words": [
           "tower",
           "american",
           "financial",
-          "the",
           "corporations",
+          "the",
           "companys",
           "and",
           "of",
@@ -354,8 +354,8 @@
           "systems",
           "combat",
           "sales",
-          "segments",
           "yearend",
+          "segments",
           "system"
         ]
       },
@@ -373,19 +373,53 @@
           "returns",
           "reinvested",
           "stock",
-          "fiveyear"
+          "shareowner"
         ]
       },
       {
         "topic_id": 22,
+        "count": 26,
+        "name": "22_losses_unrealized",
+        "top_words": [
+          "losses",
+          "unrealized",
+          "loss",
+          "catastrophe",
+          "financial",
+          "accumulated",
+          "discontinued",
+          "other",
+          "on",
+          "and"
+        ]
+      },
+      {
+        "topic_id": 23,
+        "count": 26,
+        "name": "23_stores_distribution",
+        "top_words": [
+          "stores",
+          "distribution",
+          "facilities",
+          "locations",
+          "owned",
+          "leased",
+          "of",
+          "the",
+          "growth",
+          "number"
+        ]
+      },
+      {
+        "topic_id": 24,
         "count": 24,
-        "name": "22_business",
+        "name": "24_business",
         "top_words": [
           "aes",
           "the",
+          "corporations",
           "of",
           "and",
-          "corporations",
           "financial",
           "recourse",
           "corporation",
@@ -394,9 +428,9 @@
         ]
       },
       {
-        "topic_id": 23,
+        "topic_id": 25,
         "count": 24,
-        "name": "23_financial_markets",
+        "name": "25_financial_markets",
         "top_words": [
           "composite",
           "rdg",
@@ -411,26 +445,26 @@
         ]
       },
       {
-        "topic_id": 24,
+        "topic_id": 26,
         "count": 23,
-        "name": "24_losses_loss",
+        "name": "26_corporate_finance",
         "top_words": [
-          "losses",
-          "loss",
-          "financial",
-          "catastrophe",
-          "unrealized",
+          "expenses",
+          "equipment",
+          "age",
+          "percentage",
+          "operating",
+          "other",
+          "revenues",
+          "categories",
           "and",
-          "accumulated",
-          "investment",
-          "catastrophic",
-          "the"
+          "fleet"
         ]
       },
       {
-        "topic_id": 25,
-        "count": 23,
-        "name": "25_debt_and_credit",
+        "topic_id": 27,
+        "count": 22,
+        "name": "27_receivables_accrued",
         "top_words": [
           "accounts",
           "doubtful",
@@ -439,9 +473,26 @@
           "risk",
           "credit",
           "receivables",
-          "for",
           "customer",
+          "for",
           "the"
+        ]
+      },
+      {
+        "topic_id": 28,
+        "count": 22,
+        "name": "28_corporate_finance",
+        "top_words": [
+          "printing",
+          "papers",
+          "demand",
+          "sales",
+          "profits",
+          "costs",
+          "downtime",
+          "pulp",
+          "packaging",
+          "input"
         ]
       }
     ]
@@ -451,25 +502,8 @@
     "topics": [
       {
         "topic_id": 0,
-        "count": 854,
-        "name": "0_sports",
-        "top_words": [
-          "stadium",
-          "football",
-          "team",
-          "league",
-          "clubs",
-          "club",
-          "teams",
-          "capacities",
-          "stadiums",
-          "leagues"
-        ]
-      },
-      {
-        "topic_id": 1,
-        "count": 796,
-        "name": "1_film",
+        "count": 790,
+        "name": "0_film",
         "top_words": [
           "film",
           "films",
@@ -481,6 +515,23 @@
           "director",
           "genres",
           "cast"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "count": 359,
+        "name": "1_sports",
+        "top_words": [
+          "stadium",
+          "capacities",
+          "stadiums",
+          "clubs",
+          "teams",
+          "football",
+          "capacity",
+          "leagues",
+          "venues",
+          "team"
         ]
       },
       {
@@ -502,15 +553,32 @@
       },
       {
         "topic_id": 3,
-        "count": 243,
-        "name": "3_sports",
+        "count": 250,
+        "name": "3_geography",
+        "top_words": [
+          "population",
+          "demographic",
+          "areas",
+          "regions",
+          "geographical",
+          "administrative",
+          "economic",
+          "cities",
+          "postcode",
+          "area"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "count": 205,
+        "name": "4_sports",
         "top_words": [
           "athlete",
           "medal",
-          "event",
           "athletes",
-          "games",
+          "event",
           "olympic",
+          "games",
           "sports",
           "olympics",
           "events",
@@ -518,9 +586,9 @@
         ]
       },
       {
-        "topic_id": 4,
-        "count": 181,
-        "name": "4_transportation",
+        "topic_id": 5,
+        "count": 180,
+        "name": "5_transportation",
         "top_words": [
           "stations",
           "software",
@@ -535,25 +603,8 @@
         ]
       },
       {
-        "topic_id": 5,
-        "count": 160,
-        "name": "5_geography",
-        "top_words": [
-          "population",
-          "administrative",
-          "economic",
-          "areas",
-          "demographic",
-          "regions",
-          "geographical",
-          "cities",
-          "historical",
-          "postcode"
-        ]
-      },
-      {
         "topic_id": 6,
-        "count": 153,
+        "count": 163,
         "name": "6_geography",
         "top_words": [
           "historic",
@@ -562,33 +613,50 @@
           "places",
           "register",
           "landmarks",
-          "or",
-          "listings",
+          "listing",
           "site",
+          "listings",
           "national"
         ]
       },
       {
         "topic_id": 7,
-        "count": 132,
+        "count": 136,
         "name": "7_sports",
         "top_words": [
           "player",
           "team",
           "sports",
-          "performance",
           "leagues",
+          "performance",
           "teams",
           "across",
           "various",
           "metrics",
-          "positions"
+          "demographics"
         ]
       },
       {
         "topic_id": 8,
+        "count": 130,
+        "name": "8_politics",
+        "top_words": [
+          "political",
+          "party",
+          "election",
+          "parties",
+          "electoral",
+          "constituencies",
+          "candidate",
+          "affiliations",
+          "elections",
+          "candidates"
+        ]
+      },
+      {
+        "topic_id": 9,
         "count": 128,
-        "name": "8_transportation",
+        "name": "9_transportation",
         "top_words": [
           "airport",
           "airports",
@@ -603,9 +671,43 @@
         ]
       },
       {
-        "topic_id": 9,
-        "count": 126,
-        "name": "9_sports",
+        "topic_id": 10,
+        "count": 121,
+        "name": "10_transportation",
+        "top_words": [
+          "transportation",
+          "rail",
+          "systems",
+          "routes",
+          "railway",
+          "stations",
+          "lines",
+          "bus",
+          "infrastructure",
+          "operational"
+        ]
+      },
+      {
+        "topic_id": 11,
+        "count": 116,
+        "name": "11_history",
+        "top_words": [
+          "buildings",
+          "architectural",
+          "construction",
+          "styles",
+          "significance",
+          "structures",
+          "historical",
+          "cultural",
+          "locations",
+          "historic"
+        ]
+      },
+      {
+        "topic_id": 12,
+        "count": 116,
+        "name": "12_sports",
         "top_words": [
           "draft",
           "college",
@@ -613,91 +715,40 @@
           "nfl",
           "team",
           "players",
-          "position",
-          "positions",
           "pick",
-          "drafts"
-        ]
-      },
-      {
-        "topic_id": 10,
-        "count": 115,
-        "name": "10_education",
-        "top_words": [
-          "institutions",
-          "educational",
-          "enrollment",
-          "schools",
-          "universities",
-          "founding",
-          "institutional",
-          "establishment",
-          "colleges",
-          "locations"
-        ]
-      },
-      {
-        "topic_id": 11,
-        "count": 111,
-        "name": "11_history",
-        "top_words": [
-          "churches",
-          "religious",
-          "architectural",
-          "church",
-          "catholic",
-          "worship",
-          "denominations",
-          "united",
-          "historical",
-          "institutions"
-        ]
-      },
-      {
-        "topic_id": 12,
-        "count": 110,
-        "name": "12_driver_prix",
-        "top_words": [
-          "driver",
-          "prix",
-          "grand",
-          "race",
-          "drivers",
-          "constructor",
-          "formula",
-          "races",
-          "racing",
-          "constructors"
+          "position",
+          "drafts",
+          "positions"
         ]
       },
       {
         "topic_id": 13,
-        "count": 101,
-        "name": "13_history",
+        "count": 107,
+        "name": "13_education",
         "top_words": [
-          "buildings",
-          "architectural",
-          "construction",
-          "styles",
-          "structures",
-          "significance",
-          "historical",
-          "historic",
-          "locations",
-          "tallest"
+          "institutions",
+          "educational",
+          "enrollment",
+          "universities",
+          "schools",
+          "founding",
+          "institutional",
+          "colleges",
+          "establishment",
+          "student"
         ]
       },
       {
         "topic_id": 14,
         "count": 101,
-        "name": "14_game_platforms",
+        "name": "14_games",
         "top_words": [
           "game",
           "platforms",
           "video",
           "publishers",
-          "games",
           "developers",
+          "games",
           "release",
           "genres",
           "developer",
@@ -706,8 +757,42 @@
       },
       {
         "topic_id": 15,
-        "count": 98,
-        "name": "15_sports",
+        "count": 100,
+        "name": "15_education",
+        "top_words": [
+          "alumni",
+          "university",
+          "degrees",
+          "notable",
+          "achievements",
+          "institutions",
+          "fields",
+          "educational",
+          "class",
+          "universities"
+        ]
+      },
+      {
+        "topic_id": 16,
+        "count": 99,
+        "name": "16_sports",
+        "top_words": [
+          "rugby",
+          "match",
+          "team",
+          "player",
+          "union",
+          "teams",
+          "matches",
+          "club",
+          "football",
+          "performance"
+        ]
+      },
+      {
+        "topic_id": 17,
+        "count": 99,
+        "name": "17_sports",
         "top_words": [
           "hockey",
           "nhl",
@@ -722,60 +807,9 @@
         ]
       },
       {
-        "topic_id": 16,
-        "count": 98,
-        "name": "16_education",
-        "top_words": [
-          "alumni",
-          "university",
-          "notable",
-          "degrees",
-          "institutions",
-          "achievements",
-          "educational",
-          "individuals",
-          "fields",
-          "universities"
-        ]
-      },
-      {
-        "topic_id": 17,
-        "count": 95,
-        "name": "17_sports",
-        "top_words": [
-          "marathon",
-          "half",
-          "championships",
-          "athlete",
-          "iaaf",
-          "marathons",
-          "athletes",
-          "times",
-          "world",
-          "countries"
-        ]
-      },
-      {
         "topic_id": 18,
-        "count": 93,
+        "count": 95,
         "name": "18_sports",
-        "top_words": [
-          "rugby",
-          "match",
-          "team",
-          "player",
-          "union",
-          "teams",
-          "matches",
-          "performance",
-          "football",
-          "league"
-        ]
-      },
-      {
-        "topic_id": 19,
-        "count": 92,
-        "name": "19_sports",
         "top_words": [
           "basketball",
           "nba",
@@ -790,26 +824,9 @@
         ]
       },
       {
-        "topic_id": 20,
-        "count": 91,
-        "name": "20_alpha_chapters",
-        "top_words": [
-          "alpha",
-          "chapters",
-          "members",
-          "kappa",
-          "phi",
-          "fraternity",
-          "original",
-          "notable",
-          "chapter",
-          "psi"
-        ]
-      },
-      {
-        "topic_id": 21,
+        "topic_id": 19,
         "count": 88,
-        "name": "21_transportation",
+        "name": "19_transportation",
         "top_words": [
           "ship",
           "ships",
@@ -824,8 +841,42 @@
         ]
       },
       {
+        "topic_id": 20,
+        "count": 88,
+        "name": "20_religion",
+        "top_words": [
+          "churches",
+          "religious",
+          "church",
+          "catholic",
+          "worship",
+          "denominations",
+          "architectural",
+          "united",
+          "denomination",
+          "methodist"
+        ]
+      },
+      {
+        "topic_id": 21,
+        "count": 85,
+        "name": "21_organizations",
+        "top_words": [
+          "alpha",
+          "chapters",
+          "members",
+          "phi",
+          "kappa",
+          "fraternity",
+          "original",
+          "chapter",
+          "notable",
+          "psi"
+        ]
+      },
+      {
         "topic_id": 22,
-        "count": 80,
+        "count": 81,
         "name": "22_geography",
         "top_words": [
           "japan",
@@ -836,31 +887,48 @@
           "treasures",
           "beauty",
           "population",
-          "japanese",
-          "historic"
+          "historic",
+          "japanese"
         ]
       },
       {
         "topic_id": 23,
         "count": 79,
-        "name": "23_politics",
+        "name": "23_animals",
         "top_words": [
-          "political",
-          "election",
-          "party",
-          "parties",
-          "electoral",
-          "constituencies",
-          "candidate",
-          "elections",
-          "constituency",
-          "results"
+          "species",
+          "conservation",
+          "common",
+          "fictional",
+          "scientific",
+          "animals",
+          "fossils",
+          "breeds",
+          "monkey",
+          "statuses"
         ]
       },
       {
         "topic_id": 24,
         "count": 77,
-        "name": "24_peaks_mountains",
+        "name": "24_geography",
+        "top_words": [
+          "gymnastics",
+          "gymnasts",
+          "championships",
+          "world",
+          "aerobic",
+          "artistic",
+          "gymnast",
+          "rhythmic",
+          "scores",
+          "countries"
+        ]
+      },
+      {
+        "topic_id": 25,
+        "count": 77,
+        "name": "25_peaks_mountains",
         "top_words": [
           "peaks",
           "mountains",
@@ -875,111 +943,77 @@
         ]
       },
       {
-        "topic_id": 25,
-        "count": 72,
-        "name": "25_geography",
-        "top_words": [
-          "gymnastics",
-          "gymnasts",
-          "championships",
-          "world",
-          "artistic",
-          "aerobic",
-          "gymnast",
-          "rhythmic",
-          "scores",
-          "countries"
-        ]
-      },
-      {
         "topic_id": 26,
         "count": 65,
-        "name": "26_military",
+        "name": "26_sports",
         "top_words": [
-          "military",
-          "service",
-          "recipients",
-          "honor",
-          "action",
-          "ranks",
-          "medal",
-          "actions",
-          "academy",
-          "conflicts"
+          "marathon",
+          "half",
+          "marathons",
+          "iaaf",
+          "athlete",
+          "championships",
+          "athletes",
+          "world",
+          "times",
+          "finishing"
         ]
       },
       {
         "topic_id": 27,
         "count": 64,
-        "name": "27_geography",
+        "name": "27_military",
         "top_words": [
-          "india",
-          "population",
-          "towns",
-          "administrative",
-          "cities",
-          "cultural",
-          "divisions",
-          "indian",
-          "geographical",
-          "in"
+          "aircraft",
+          "squadron",
+          "squadrons",
+          "military",
+          "operational",
+          "aviation",
+          "weapons",
+          "weapon",
+          "specifications",
+          "air"
         ]
       },
       {
         "topic_id": 28,
-        "count": 64,
-        "name": "28_sports",
+        "count": 62,
+        "name": "28_military",
         "top_words": [
-          "event",
-          "sports",
-          "events",
-          "venues",
-          "venue",
-          "hosted",
-          "outcomes",
-          "games",
-          "participant",
-          "olympics"
+          "military",
+          "recipients",
+          "service",
+          "honor",
+          "action",
+          "medal",
+          "ranks",
+          "actions",
+          "conflicts",
+          "unit"
         ]
       },
       {
         "topic_id": 29,
-        "count": 63,
-        "name": "29_species_conservation",
+        "count": 58,
+        "name": "29_driver_prix",
         "top_words": [
-          "species",
-          "conservation",
-          "common",
-          "scientific",
-          "fossils",
-          "breeds",
-          "monkey",
-          "status",
-          "classification",
-          "statuses"
+          "driver",
+          "prix",
+          "grand",
+          "drivers",
+          "race",
+          "formula",
+          "one",
+          "constructor",
+          "races",
+          "qualifying"
         ]
       },
       {
         "topic_id": 30,
-        "count": 57,
-        "name": "30_characters_fictional",
-        "top_words": [
-          "characters",
-          "fictional",
-          "comic",
-          "creators",
-          "cartoons",
-          "animation",
-          "series",
-          "species",
-          "comics",
-          "character"
-        ]
-      },
-      {
-        "topic_id": 31,
-        "count": 57,
-        "name": "31_sports",
+        "count": 58,
+        "name": "30_sports",
         "top_words": [
           "flag",
           "bearers",
@@ -994,26 +1028,9 @@
         ]
       },
       {
-        "topic_id": 32,
+        "topic_id": 31,
         "count": 54,
-        "name": "32_transportation",
-        "top_words": [
-          "power",
-          "stations",
-          "wind",
-          "energy",
-          "fuel",
-          "farms",
-          "capacity",
-          "station",
-          "capacities",
-          "operational"
-        ]
-      },
-      {
-        "topic_id": 33,
-        "count": 53,
-        "name": "33_figure_skating",
+        "name": "31_figure_skating",
         "top_words": [
           "figure",
           "skating",
@@ -1025,6 +1042,40 @@
           "competitions",
           "junior",
           "competition"
+        ]
+      },
+      {
+        "topic_id": 32,
+        "count": 52,
+        "name": "32_transportation",
+        "top_words": [
+          "power",
+          "wind",
+          "stations",
+          "energy",
+          "fuel",
+          "farms",
+          "capacity",
+          "station",
+          "operational",
+          "capacities"
+        ]
+      },
+      {
+        "topic_id": 33,
+        "count": 52,
+        "name": "33_geography",
+        "top_words": [
+          "india",
+          "population",
+          "administrative",
+          "towns",
+          "cities",
+          "divisions",
+          "geographical",
+          "indian",
+          "cultural",
+          "temples"
         ]
       },
       {
@@ -1047,24 +1098,75 @@
       {
         "topic_id": 35,
         "count": 52,
-        "name": "35_sports",
+        "name": "35_cycling_road",
+        "top_words": [
+          "cycling",
+          "road",
+          "uci",
+          "cup",
+          "womens",
+          "rider",
+          "tour",
+          "world",
+          "cyclists",
+          "event"
+        ]
+      },
+      {
+        "topic_id": 36,
+        "count": 52,
+        "name": "36_sports",
+        "top_words": [
+          "transfer",
+          "transfers",
+          "player",
+          "fees",
+          "football",
+          "clubs",
+          "club",
+          "team",
+          "positions",
+          "fc"
+        ]
+      },
+      {
+        "topic_id": 37,
+        "count": 51,
+        "name": "37_sports",
+        "top_words": [
+          "player",
+          "football",
+          "team",
+          "players",
+          "career",
+          "goals",
+          "leagues",
+          "statistics",
+          "performance",
+          "club"
+        ]
+      },
+      {
+        "topic_id": 38,
+        "count": 50,
+        "name": "38_sports",
         "top_words": [
           "baseball",
           "player",
           "team",
           "mlb",
+          "records",
           "major",
           "draft",
-          "records",
           "league",
           "statistics",
           "performance"
         ]
       },
       {
-        "topic_id": 36,
+        "topic_id": 39,
         "count": 50,
-        "name": "36_dance_dancing",
+        "name": "39_dance_dancing",
         "top_words": [
           "dance",
           "dancing",
@@ -1079,81 +1181,13 @@
         ]
       },
       {
-        "topic_id": 37,
-        "count": 50,
-        "name": "37_transportation",
-        "top_words": [
-          "railway",
-          "rail",
-          "systems",
-          "lines",
-          "train",
-          "stations",
-          "operational",
-          "station",
-          "ridership",
-          "metro"
-        ]
-      },
-      {
-        "topic_id": 38,
-        "count": 49,
-        "name": "38_military",
-        "top_words": [
-          "aircraft",
-          "squadron",
-          "squadrons",
-          "aviation",
-          "operational",
-          "air",
-          "units",
-          "assigned",
-          "operations",
-          "models"
-        ]
-      },
-      {
-        "topic_id": 39,
-        "count": 49,
-        "name": "39_geography",
-        "top_words": [
-          "islands",
-          "population",
-          "lakes",
-          "chineseamerican",
-          "island",
-          "geographical",
-          "water",
-          "demographic",
-          "regions",
-          "populations"
-        ]
-      },
-      {
         "topic_id": 40,
         "count": 48,
-        "name": "40_cycling_road",
-        "top_words": [
-          "cycling",
-          "road",
-          "uci",
-          "womens",
-          "cup",
-          "rider",
-          "tour",
-          "world",
-          "cyclists",
-          "event"
-        ]
-      },
-      {
-        "topic_id": 41,
-        "count": 47,
-        "name": "41_business",
+        "name": "40_business",
         "top_words": [
           "companies",
-          "headquarters",
           "company",
+          "headquarters",
           "market",
           "stock",
           "industry",
@@ -1164,49 +1198,49 @@
         ]
       },
       {
-        "topic_id": 42,
-        "count": 45,
-        "name": "42_education",
+        "topic_id": 41,
+        "count": 47,
+        "name": "41_sports",
         "top_words": [
-          "individuals",
-          "fields",
-          "notable",
-          "achievements",
-          "contributions",
-          "university",
-          "various",
-          "professional",
-          "backgrounds",
-          "educational"
-        ]
-      },
-      {
-        "topic_id": 43,
-        "count": 44,
-        "name": "43_sports",
-        "top_words": [
-          "paralympics",
-          "medal",
-          "paralympic",
-          "athlete",
-          "summer",
           "athletes",
-          "event",
-          "sport",
-          "participation",
+          "events",
+          "sports",
+          "performance",
+          "analyze",
+          "olympics",
+          "gather",
+          "their",
+          "various",
           "games"
         ]
       },
       {
-        "topic_id": 44,
-        "count": 42,
-        "name": "44_dog_disasters",
+        "topic_id": 42,
+        "count": 45,
+        "name": "42_sports",
+        "top_words": [
+          "paralympics",
+          "medal",
+          "summer",
+          "athletes",
+          "paralympic",
+          "athlete",
+          "event",
+          "sport",
+          "games",
+          "sports"
+        ]
+      },
+      {
+        "topic_id": 43,
+        "count": 43,
+        "name": "43_animals",
         "top_words": [
           "dog",
           "disasters",
           "attacks",
-          "hurricanes",
           "affected",
+          "hurricanes",
           "disaster",
           "fatal",
           "mass",
@@ -1215,20 +1249,37 @@
         ]
       },
       {
-        "topic_id": 45,
-        "count": 42,
-        "name": "45_sports",
+        "topic_id": 44,
+        "count": 41,
+        "name": "44_business",
         "top_words": [
-          "conference",
-          "conferences",
-          "ncaa",
-          "realignments",
-          "schools",
-          "school",
-          "sports",
-          "division",
-          "affiliations",
-          "changes"
+          "wealth",
+          "net",
+          "worth",
+          "billionaires",
+          "sources",
+          "individuals",
+          "business",
+          "age",
+          "economic",
+          "industries"
+        ]
+      },
+      {
+        "topic_id": 45,
+        "count": 41,
+        "name": "45_characters_comic",
+        "top_words": [
+          "characters",
+          "comic",
+          "cartoons",
+          "creators",
+          "animation",
+          "series",
+          "comics",
+          "fictional",
+          "looney",
+          "tunes"
         ]
       },
       {
@@ -1250,7 +1301,7 @@
       },
       {
         "topic_id": 47,
-        "count": 40,
+        "count": 41,
         "name": "47_park_ride",
         "top_words": [
           "park",
@@ -1268,41 +1319,24 @@
       {
         "topic_id": 48,
         "count": 40,
-        "name": "48_business",
+        "name": "48_politics",
         "top_words": [
-          "wealth",
-          "net",
-          "worth",
-          "billionaires",
-          "sources",
-          "individuals",
-          "business",
-          "age",
-          "economic",
-          "industries"
+          "successors",
+          "reasons",
+          "congressional",
+          "congress",
+          "successor",
+          "formal",
+          "changes",
+          "political",
+          "installation",
+          "change"
         ]
       },
       {
         "topic_id": 49,
         "count": 39,
-        "name": "49_sports",
-        "top_words": [
-          "athletes",
-          "sports",
-          "events",
-          "analyze",
-          "performance",
-          "their",
-          "olympics",
-          "gather",
-          "games",
-          "various"
-        ]
-      },
-      {
-        "topic_id": 50,
-        "count": 38,
-        "name": "50_geography",
+        "name": "49_geography",
         "top_words": [
           "bridges",
           "bridge",
@@ -1314,6 +1348,23 @@
           "dublin",
           "sites",
           "types"
+        ]
+      },
+      {
+        "topic_id": 50,
+        "count": 39,
+        "name": "50_sports",
+        "top_words": [
+          "conference",
+          "conferences",
+          "ncaa",
+          "realignments",
+          "schools",
+          "school",
+          "division",
+          "sports",
+          "changes",
+          "affiliations"
         ]
       },
       {
@@ -1329,8 +1380,8 @@
           "density",
           "area",
           "capital",
-          "comparable",
-          "chile"
+          "chile",
+          "comparable"
         ]
       },
       {
@@ -1353,24 +1404,7 @@
       {
         "topic_id": 53,
         "count": 37,
-        "name": "53_education",
-        "top_words": [
-          "enrollment",
-          "universities",
-          "institutions",
-          "conference",
-          "founding",
-          "institution",
-          "athletic",
-          "colleges",
-          "ncaa",
-          "chapter"
-        ]
-      },
-      {
-        "topic_id": 54,
-        "count": 37,
-        "name": "54_space",
+        "name": "53_space",
         "top_words": [
           "space",
           "launch",
@@ -1385,77 +1419,213 @@
         ]
       },
       {
+        "topic_id": 54,
+        "count": 36,
+        "name": "54_sports",
+        "top_words": [
+          "metres",
+          "athlete",
+          "throw",
+          "javelin",
+          "athletic",
+          "records",
+          "event",
+          "hurdles",
+          "progression",
+          "athletes"
+        ]
+      },
+      {
         "topic_id": 55,
-        "count": 37,
+        "count": 35,
         "name": "55_sports",
         "top_words": [
-          "college",
-          "sports",
-          "coaching",
-          "player",
-          "educational",
-          "baseball",
-          "coaches",
+          "football",
+          "team",
+          "leagues",
+          "league",
+          "teams",
+          "success",
           "performance",
-          "conference",
-          "basketball"
+          "championship",
+          "tournaments",
+          "metrics"
         ]
       },
       {
         "topic_id": 56,
-        "count": 36,
-        "name": "56_politics",
+        "count": 35,
+        "name": "56_sports",
         "top_words": [
-          "successors",
-          "successor",
-          "formal",
-          "congress",
-          "congressional",
-          "reasons",
-          "legislative",
-          "changes",
-          "installation",
-          "united"
+          "club",
+          "afl",
+          "player",
+          "australian",
+          "draft",
+          "recruitment",
+          "clubs",
+          "premierships",
+          "drafts",
+          "premiership"
         ]
       },
       {
         "topic_id": 57,
-        "count": 35,
-        "name": "57_sports",
+        "count": 33,
+        "name": "57_education",
         "top_words": [
-          "afl",
-          "club",
-          "player",
-          "australian",
-          "draft",
-          "clubs",
-          "recruitment",
-          "drafts",
-          "premierships",
-          "league"
+          "individuals",
+          "fields",
+          "notable",
+          "contributions",
+          "achievements",
+          "educational",
+          "university",
+          "backgrounds",
+          "alumni",
+          "various"
         ]
       },
       {
         "topic_id": 58,
-        "count": 30,
-        "name": "58_geography",
+        "count": 33,
+        "name": "58_education",
+        "top_words": [
+          "universities",
+          "enrollment",
+          "institutions",
+          "conference",
+          "athletic",
+          "founding",
+          "institution",
+          "ncaa",
+          "colleges",
+          "chapter"
+        ]
+      },
+      {
+        "topic_id": 59,
+        "count": 32,
+        "name": "59_geography",
+        "top_words": [
+          "boxers",
+          "governorates",
+          "diplomatic",
+          "geographical",
+          "international",
+          "treaties",
+          "entities",
+          "countries",
+          "demographic",
+          "female"
+        ]
+      },
+      {
+        "topic_id": 60,
+        "count": 31,
+        "name": "60_sports",
+        "top_words": [
+          "sports",
+          "event",
+          "events",
+          "outcomes",
+          "venues",
+          "participant",
+          "different",
+          "should",
+          "winners",
+          "performance"
+        ]
+      },
+      {
+        "topic_id": 61,
+        "count": 31,
+        "name": "61_sports",
+        "top_words": [
+          "baseball",
+          "college",
+          "schools",
+          "allamerica",
+          "players",
+          "positions",
+          "school",
+          "professional",
+          "player",
+          "sports"
+        ]
+      },
+      {
+        "topic_id": 62,
+        "count": 31,
+        "name": "62_geography",
         "top_words": [
           "languages",
           "language",
           "speakers",
           "ethnic",
-          "scripts",
           "extinction",
+          "spoken",
+          "scripts",
           "groups",
-          "regions",
-          "linguistic",
-          "official"
+          "official",
+          "regions"
         ]
       },
       {
-        "topic_id": 59,
+        "topic_id": 63,
+        "count": 30,
+        "name": "63_politics",
+        "top_words": [
+          "party",
+          "electoral",
+          "districts",
+          "canadian",
+          "candidates",
+          "election",
+          "federal",
+          "ridings",
+          "political",
+          "representation"
+        ]
+      },
+      {
+        "topic_id": 64,
+        "count": 30,
+        "name": "64_sports",
+        "top_words": [
+          "countries",
+          "international",
+          "championships",
+          "sports",
+          "rankings",
+          "geographical",
+          "hockey",
+          "country",
+          "roller",
+          "performance"
+        ]
+      },
+      {
+        "topic_id": 65,
+        "count": 30,
+        "name": "65_sports",
+        "top_words": [
+          "venues",
+          "venue",
+          "hosted",
+          "sports",
+          "capacities",
+          "games",
+          "events",
+          "olympics",
+          "olympic",
+          "event"
+        ]
+      },
+      {
+        "topic_id": 66,
         "count": 29,
-        "name": "59_sports",
+        "name": "66_sports",
         "top_words": [
           "cricket",
           "team",
@@ -1470,94 +1640,111 @@
         ]
       },
       {
-        "topic_id": 60,
+        "topic_id": 67,
         "count": 29,
-        "name": "60_geography",
+        "name": "67_sports",
         "top_words": [
-          "boxers",
-          "governorates",
-          "geographical",
+          "championships",
+          "cross",
           "international",
-          "treaties",
-          "diplomatic",
+          "country",
+          "athletes",
+          "athlete",
           "countries",
-          "demographic",
-          "entities",
-          "female"
+          "nationalities",
+          "times",
+          "performance"
         ]
       },
       {
-        "topic_id": 61,
-        "count": 29,
-        "name": "61_military",
+        "topic_id": 68,
+        "count": 28,
+        "name": "68_military",
         "top_words": [
           "war",
           "battles",
           "generals",
           "civil",
-          "battle",
           "military",
           "units",
+          "battle",
           "american",
           "wars",
           "conflicts"
         ]
       },
       {
-        "topic_id": 62,
-        "count": 28,
-        "name": "62_politics",
-        "top_words": [
-          "party",
-          "electoral",
-          "canadian",
-          "candidates",
-          "election",
-          "districts",
-          "federal",
-          "ridings",
-          "riding",
-          "representation"
-        ]
-      },
-      {
-        "topic_id": 63,
-        "count": 28,
-        "name": "63_education",
-        "top_words": [
-          "recipients",
-          "awards",
-          "award",
-          "fields",
-          "individuals",
-          "university",
-          "research",
-          "achievements",
-          "notable",
-          "institutions"
-        ]
-      },
-      {
-        "topic_id": 64,
+        "topic_id": 69,
         "count": 27,
-        "name": "64_sports",
+        "name": "69_driver_racing",
         "top_words": [
-          "baseball",
-          "college",
-          "schools",
-          "allamerica",
-          "players",
-          "school",
-          "positions",
-          "professional",
-          "conferences",
-          "player"
+          "driver",
+          "racing",
+          "car",
+          "race",
+          "drivers",
+          "constructors",
+          "motorsport",
+          "nascar",
+          "constructor",
+          "formula"
         ]
       },
       {
-        "topic_id": 65,
+        "topic_id": 70,
+        "count": 27,
+        "name": "70_sports",
+        "top_words": [
+          "college",
+          "player",
+          "conference",
+          "coaches",
+          "sports",
+          "coaching",
+          "performance",
+          "baseball",
+          "educational",
+          "team"
+        ]
+      },
+      {
+        "topic_id": 71,
+        "count": 27,
+        "name": "71_sports",
+        "top_words": [
+          "tournament",
+          "tennis",
+          "player",
+          "open",
+          "snooker",
+          "tournaments",
+          "squash",
+          "wimbledon",
+          "event",
+          "prize"
+        ]
+      },
+      {
+        "topic_id": 72,
         "count": 26,
-        "name": "65_horse_horses",
+        "name": "72_food",
+        "top_words": [
+          "dishes",
+          "culinary",
+          "spanish",
+          "items",
+          "ingredients",
+          "jewish",
+          "vitamins",
+          "cuisines",
+          "origins",
+          "flavonols"
+        ]
+      },
+      {
+        "topic_id": 73,
+        "count": 26,
+        "name": "73_animals",
         "top_words": [
           "horse",
           "horses",
@@ -1572,26 +1759,26 @@
         ]
       },
       {
-        "topic_id": 66,
-        "count": 25,
-        "name": "66_transportation",
+        "topic_id": 74,
+        "count": 24,
+        "name": "74_history",
         "top_words": [
-          "subway",
-          "transportation",
-          "stations",
-          "infrastructure",
-          "lines",
-          "rail",
-          "systems",
-          "bus",
-          "services",
-          "tunnels"
+          "religious",
+          "architectural",
+          "buildings",
+          "scotland",
+          "historical",
+          "sites",
+          "church",
+          "churches",
+          "monuments",
+          "kingdom"
         ]
       },
       {
-        "topic_id": 67,
-        "count": 25,
-        "name": "67_sports",
+        "topic_id": 75,
+        "count": 24,
+        "name": "75_sports",
         "top_words": [
           "tour",
           "golf",
@@ -1606,26 +1793,26 @@
         ]
       },
       {
-        "topic_id": 68,
-        "count": 25,
-        "name": "68_sports",
+        "topic_id": 76,
+        "count": 24,
+        "name": "76_insurance",
         "top_words": [
-          "tournament",
-          "tennis",
-          "open",
-          "tournaments",
-          "snooker",
-          "squash",
-          "player",
-          "winners",
-          "wimbledon",
-          "champions"
+          "forests",
+          "parks",
+          "nature",
+          "features",
+          "reserves",
+          "madhya",
+          "forest",
+          "pradesh",
+          "conservation",
+          "ecological"
         ]
       },
       {
-        "topic_id": 69,
+        "topic_id": 77,
         "count": 24,
-        "name": "69_music",
+        "name": "77_music",
         "top_words": [
           "art",
           "artworks",
@@ -1640,9 +1827,9 @@
         ]
       },
       {
-        "topic_id": 70,
+        "topic_id": 78,
         "count": 24,
-        "name": "70_drug_biological",
+        "name": "78_drug_biological",
         "top_words": [
           "drug",
           "biological",
@@ -1657,71 +1844,20 @@
         ]
       },
       {
-        "topic_id": 71,
-        "count": 24,
-        "name": "71_sports",
+        "topic_id": 79,
+        "count": 20,
+        "name": "79_education",
         "top_words": [
-          "athlete",
-          "throw",
-          "jump",
-          "javelin",
-          "event",
-          "athletic",
-          "records",
-          "discus",
-          "record",
-          "progression"
-        ]
-      },
-      {
-        "topic_id": 72,
-        "count": 24,
-        "name": "72_sports",
-        "top_words": [
-          "countries",
-          "championships",
-          "sports",
-          "international",
-          "hockey",
-          "roller",
-          "geographical",
-          "country",
-          "land",
-          "prefectures"
-        ]
-      },
-      {
-        "topic_id": 73,
-        "count": 23,
-        "name": "73_dishes_spanish",
-        "top_words": [
-          "dishes",
-          "spanish",
-          "items",
-          "culinary",
-          "ingredients",
-          "jewish",
-          "vitamins",
-          "cuisines",
-          "origins",
-          "flavonols"
-        ]
-      },
-      {
-        "topic_id": 74,
-        "count": 23,
-        "name": "74_politics",
-        "top_words": [
-          "political",
-          "party",
-          "endorsements",
-          "politicians",
-          "cannabis",
-          "affiliations",
-          "figures",
-          "us",
-          "election",
-          "senate"
+          "recipients",
+          "awards",
+          "award",
+          "fields",
+          "university",
+          "individuals",
+          "achievements",
+          "institutions",
+          "recognition",
+          "received"
         ]
       }
     ]
@@ -1731,24 +1867,24 @@
     "topics": [
       {
         "topic_id": 0,
-        "count": 259,
+        "count": 298,
         "name": "0_corporate_finance",
         "top_words": [
           "and",
-          "revenue",
           "the",
+          "revenue",
           "of",
           "financial",
           "performance",
-          "operating",
           "dataset",
-          "profit",
-          "metrics"
+          "operating",
+          "for",
+          "as"
         ]
       },
       {
         "topic_id": 1,
-        "count": 82,
+        "count": 80,
         "name": "1_financial_markets",
         "top_words": [
           "share",
@@ -1765,32 +1901,15 @@
       },
       {
         "topic_id": 2,
-        "count": 76,
-        "name": "2_impairment",
-        "top_words": [
-          "and",
-          "equipment",
-          "the",
-          "depreciation",
-          "of",
-          "asset",
-          "assets",
-          "property",
-          "amortization",
-          "values"
-        ]
-      },
-      {
-        "topic_id": 3,
-        "count": 59,
-        "name": "3_corporate_finance",
+        "count": 60,
+        "name": "2_corporate_finance",
         "top_words": [
           "cash",
           "activities",
           "flow",
           "investing",
-          "and",
           "the",
+          "and",
           "financing",
           "equivalents",
           "in",
@@ -1798,16 +1917,33 @@
         ]
       },
       {
-        "topic_id": 4,
+        "topic_id": 3,
         "count": 57,
+        "name": "3_real_estate",
+        "top_words": [
+          "equipment",
+          "and",
+          "depreciation",
+          "asset",
+          "property",
+          "the",
+          "of",
+          "ppe",
+          "values",
+          "assets"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "count": 55,
         "name": "4_financial_markets",
         "top_words": [
           "compensation",
           "awards",
           "the",
           "and",
-          "of",
           "stockbased",
+          "of",
           "stock",
           "shares",
           "expense",
@@ -1816,7 +1952,7 @@
       },
       {
         "topic_id": 5,
-        "count": 54,
+        "count": 55,
         "name": "5_debt_and_credit",
         "top_words": [
           "debt",
@@ -1827,24 +1963,24 @@
           "longterm",
           "loan",
           "credit",
-          "notes",
-          "interest"
+          "interest",
+          "notes"
         ]
       },
       {
         "topic_id": 6,
-        "count": 50,
+        "count": 54,
         "name": "6_receivables_accrued",
         "top_words": [
           "receivables",
           "accrued",
+          "liabilities",
           "and",
           "the",
-          "liabilities",
-          "trade",
           "for",
-          "accounts",
+          "trade",
           "contract",
+          "accounts",
           "of"
         ]
       },
@@ -1867,36 +2003,36 @@
       },
       {
         "topic_id": 8,
-        "count": 33,
+        "count": 35,
         "name": "8_taxation",
         "top_words": [
           "tax",
           "deferred",
           "carryforwards",
           "assets",
-          "liabilities",
           "and",
           "the",
-          "valuation",
+          "liabilities",
           "of",
-          "allowances"
+          "valuation",
+          "on"
         ]
       },
       {
         "topic_id": 9,
         "count": 30,
-        "name": "9_corporate_finance",
+        "name": "9_taxation",
         "top_words": [
           "tax",
           "income",
           "provisions",
           "the",
           "and",
-          "rates",
-          "expenses",
-          "of",
           "foreign",
-          "on"
+          "rates",
+          "of",
+          "expenses",
+          "benefits"
         ]
       },
       {
@@ -1904,50 +2040,33 @@
         "count": 28,
         "name": "10_financial_markets",
         "top_words": [
-          "investment",
           "investments",
+          "investment",
           "and",
           "securities",
           "the",
           "fair",
           "equity",
           "assets",
-          "cash",
-          "financial"
+          "of",
+          "cash"
         ]
       },
       {
         "topic_id": 11,
-        "count": 20,
+        "count": 23,
         "name": "11_taxation",
         "top_words": [
           "tax",
           "positions",
-          "unrecognized",
           "reductions",
+          "unrecognized",
           "benefits",
           "additions",
           "the",
-          "beginning",
+          "settlements",
           "balances",
-          "settlements"
-        ]
-      },
-      {
-        "topic_id": 12,
-        "count": 20,
-        "name": "12_mergers_acquisitions",
-        "top_words": [
-          "goodwill",
-          "assets",
-          "and",
-          "the",
-          "of",
-          "impairment",
-          "investments",
-          "acquisitions",
-          "on",
-          "asset"
+          "beginning"
         ]
       }
     ]
