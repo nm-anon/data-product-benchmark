@@ -135,7 +135,7 @@ def save_topic_pie_from_json(
             f"{total_count:,}\nTotal",
             ha="center",
             va="center",
-            fontsize=18,
+            fontsize=22,
             fontweight="bold",
         )
 
@@ -159,9 +159,9 @@ def save_topic_pie_from_json(
             title_fontsize=14,
         )
 
-        plt.title(f"{dataset} Topic Coverage", fontsize=18, fontweight="bold")
+        plt.title(f"DP-{dataset} Topic Coverage", fontsize=24, fontweight="bold")
         plt.tight_layout()
-        fig.savefig(out_dir / f"{dataset}_topic_pie.png", bbox_inches="tight")
+        fig.savefig(out_dir / f"{dataset}_topic.png", bbox_inches="tight")
         plt.close(fig)
 
         # Write a natural language summary alongside the chart.
